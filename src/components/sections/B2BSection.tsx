@@ -1,0 +1,217 @@
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
+import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
+import b2bIcon from "@/assets/b2b-icon.png";
+
+export const B2BSection = () => {
+  const [formData, setFormData] = useState({
+    company: "",
+    email: "",
+    message: ""
+  });
+  const { toast } = useToast();
+
+  const handleContactSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (formData.company && formData.email) {
+      toast({
+        title: "Thank you for your interest!",
+        description: "We'll be in touch within 24 hours to discuss how we can support your organization.",
+      });
+      setFormData({ company: "", email: "", message: "" });
+    }
+  };
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  return (
+    <section className="py-20 bg-gradient-subtle">
+      <div className="container mx-auto px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
+              B2B Services
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              Partner with us to create inclusive, supportive workplace cultures that recognize 
+              and address women's health needs.
+            </p>
+          </div>
+
+          {/* Company Partners */}
+          <div className="mb-16 animate-fade-in">
+            <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
+              Trusted by Forward-Thinking Companies
+            </h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-primary-foreground">T</span>
+                  </div>
+                  <CardTitle className="text-xl">TechFlow Solutions</CardTitle>
+                  <CardDescription>
+                    Implementing comprehensive women's health support programs for their 500+ female employees.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-accent-foreground">W</span>
+                  </div>
+                  <CardTitle className="text-xl">WellCorp Industries</CardTitle>
+                  <CardDescription>
+                    Breaking workplace taboos around menstrual health and menopause with our educational workshops.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-primary-foreground">I</span>
+                  </div>
+                  <CardTitle className="text-xl">Innovate Healthcare</CardTitle>
+                  <CardDescription>
+                    Creating inclusive policies and support networks for women in leadership positions.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            {/* Services */}
+            <div className="space-y-8 animate-fade-in">
+              <div className="flex items-start space-x-4">
+                <img 
+                  src={b2bIcon} 
+                  alt="B2B services icon representing corporate collaboration and growth"
+                  className="w-16 h-16 mt-2"
+                />
+                <div>
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">
+                    Workplace Wellness Programs
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Custom programs that address women's health topics often overlooked in traditional 
+                    corporate wellness initiatives.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mt-2">
+                  <span className="text-2xl">🏢</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">
+                    Policy Consulting
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Help organizations develop inclusive policies that support women throughout 
+                    their reproductive health journey and career progression.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mt-2">
+                  <span className="text-2xl">📊</span>
+                </div>
+                <div>
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">
+                    Training & Education
+                  </h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Evidence-based workshops and training sessions that break down barriers 
+                    and create supportive workplace cultures.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Contact Form */}
+            <div className="animate-scale-in">
+              <Card className="shadow-medium border-2 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="text-3xl font-bold text-foreground">
+                    Partner With Us
+                  </CardTitle>
+                  <CardDescription className="text-lg text-muted-foreground">
+                    Ready to transform your workplace culture? Let's discuss how we can help.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <form onSubmit={handleContactSubmit} className="space-y-4">
+                    <div>
+                      <Input
+                        type="text"
+                        name="company"
+                        placeholder="Company name"
+                        value={formData.company}
+                        onChange={handleInputChange}
+                        className="h-12 text-base border-2 focus:border-primary"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <Input
+                        type="email"
+                        name="email"
+                        placeholder="Work email address"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                        className="h-12 text-base border-2 focus:border-primary"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <Textarea
+                        name="message"
+                        placeholder="Tell us about your organization's needs..."
+                        value={formData.message}
+                        onChange={handleInputChange}
+                        className="min-h-24 text-base border-2 focus:border-primary resize-none"
+                        rows={4}
+                      />
+                    </div>
+                    <Button 
+                      type="submit" 
+                      variant="hero" 
+                      size="lg" 
+                      className="w-full text-lg h-12"
+                    >
+                      Get In Touch
+                    </Button>
+                  </form>
+                  <div className="mt-6 pt-6 border-t border-border">
+                    <p className="text-sm text-muted-foreground text-center mb-2">
+                      Prefer email? Reach us directly at:
+                    </p>
+                    <a 
+                      href="mailto:partnerships@peer-health.com" 
+                      className="text-primary hover:text-primary-glow font-medium text-center block transition-colors"
+                    >
+                      partnerships@peer-health.com
+                    </a>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
