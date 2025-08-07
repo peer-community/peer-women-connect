@@ -24,7 +24,11 @@ export const HeroSection = () => {
             </h1>
             
             <p className="text-xl md:text-2xl text-muted-foreground font-normal max-w-4xl mx-auto leading-relaxed">
-              Pioneering startup leveraging cutting-edge technologies and inclusive approaches to support women's reproductive health from menstruation to menopause, conception to postpartum.
+              We support women at different stages of their lives, helping them connect, build communities, and find the information they need.
+              <br /><br />
+              Because knowledge and connection are the true keys to breaking isolation and empowering women's freedom.
+              <br /><br />
+              We also help companies recognize the immense value of breaking taboos and stereotypes around female health, driving meaningful change and awareness.
             </p>
           </div>
           
