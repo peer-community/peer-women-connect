@@ -1,3 +1,6 @@
+import peerLogo from "@/assets/peer-logo.png";
+import peerPictogram from "@/assets/peer-pictogram.png";
+
 export const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-16">
@@ -6,8 +9,8 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <div className="flex items-center space-x-3">
-              <div className="w-8 h-8 rounded-full bg-accent"></div>
-              <span className="text-2xl font-light">Peer</span>
+              <img src={peerPictogram} alt="Peer pictogram" className="w-8 h-8" />
+              <img src={peerLogo} alt="Peer logo" className="h-6 brightness-0 invert" />
             </div>
             <p className="text-background/70 font-light leading-relaxed">
               Empowering women through connection, knowledge, and community support 

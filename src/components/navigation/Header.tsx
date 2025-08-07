@@ -1,4 +1,6 @@
 import { Button } from "@/components/ui/button";
+import peerLogo from "@/assets/peer-logo.png";
+import peerPictogram from "@/assets/peer-pictogram.png";
 
 export const Header = () => {
   return (
@@ -7,8 +9,8 @@ export const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 rounded-full bg-accent"></div>
-            <span className="text-2xl font-light text-foreground">Peer</span>
+            <img src={peerPictogram} alt="Peer pictogram" className="w-8 h-8" />
+            <img src={peerLogo} alt="Peer logo" className="h-6" />
           </div>
 
           {/* Navigation Links */}
