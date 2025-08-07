@@ -34,11 +34,6 @@ export const MissionSection = () => {
               </div>
             </div>
             
-            <div className="text-center mt-12">
-              <p className="text-xl md:text-2xl font-bold text-foreground bg-gradient-primary bg-clip-text text-transparent">
-                Pop • Real • Inclusive • Educational • Easy • Approachable • Fun • Cool
-              </p>
-            </div>
           </div>
         </div>
       </div>
