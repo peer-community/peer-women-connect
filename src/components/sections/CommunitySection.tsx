@@ -26,10 +26,11 @@ export const CommunitySection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
-              Community Services & Courses
+              Reproductive Health Community
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Building supportive communities and providing educational resources for women's health and wellness.
+              Connect with women who understand your journey. Access expert-led courses and supportive 
+              communities for every stage of reproductive life.
             </p>
           </div>
 
@@ -44,11 +45,11 @@ export const CommunitySection = () => {
                 />
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-3">
-                    Safe Spaces for Connection
+                    Safe Spaces for Every Stage
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Join communities of women who understand your journey. Share experiences, 
-                    ask questions, and find support at every stage of life.
+                    From first periods to menopause, pregnancy to postpartum - connect with women 
+                    who truly understand your reproductive health journey. Share experiences in judgment-free spaces.
                   </p>
                 </div>
               </div>
@@ -59,11 +60,11 @@ export const CommunitySection = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-3">
-                    Expert-Led Courses
+                    Evidence-Based Education
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Access evidence-based courses on reproductive health, mental wellness, 
-                    career development, and life transitions designed specifically for women.
+                    Learn from healthcare experts about menstrual health, fertility, pregnancy, 
+                    mental wellness, and reproductive rights. Knowledge that empowers real decisions.
                   </p>
                 </div>
               </div>
@@ -74,11 +75,11 @@ export const CommunitySection = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-3">
-                    Personal Growth
+                    Empowerment & Support
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Develop skills, build confidence, and create lasting connections 
-                    through our comprehensive wellness and empowerment programs.
+                    Build confidence in your body, your choices, and your voice. Break free from 
+                    taboos and stereotypes with our inclusive wellness and empowerment programs.
                   </p>
                 </div>
               </div>

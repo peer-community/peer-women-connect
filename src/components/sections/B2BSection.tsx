@@ -38,11 +38,11 @@ export const B2BSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
-              B2B Services
+              Corporate Wellness Solutions
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Partner with us to create inclusive, supportive workplace cultures that recognize 
-              and address women's health needs.
+              Transform your workplace into a space where women's reproductive health is supported, 
+              understood, and celebrated. Break workplace taboos together.
             </p>
           </div>
 
@@ -101,11 +101,11 @@ export const B2BSection = () => {
                 />
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-3">
-                    Workplace Wellness Programs
+                    Reproductive Health Workplace Programs
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Custom programs that address women's health topics often overlooked in traditional 
-                    corporate wellness initiatives.
+                    Comprehensive programs addressing menstrual health, fertility support, pregnancy 
+                    and postpartum care, and menopause - topics often ignored in traditional corporate wellness.
                   </p>
                 </div>
               </div>
@@ -116,11 +116,11 @@ export const B2BSection = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-3">
-                    Policy Consulting
+                    Inclusive Policy Development
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Help organizations develop inclusive policies that support women throughout 
-                    their reproductive health journey and career progression.
+                    Create forward-thinking policies for menstrual leave, fertility benefits, 
+                    postpartum support, and menopause accommodations that truly support women's careers.
                   </p>
                 </div>
               </div>
@@ -131,11 +131,11 @@ export const B2BSection = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-semibold text-foreground mb-3">
-                    Training & Education
+                    Taboo-Breaking Education
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Evidence-based workshops and training sessions that break down barriers 
-                    and create supportive workplace cultures.
+                    Evidence-based workshops that normalize conversations around periods, fertility, 
+                    pregnancy, and menopause - creating genuinely supportive workplace cultures.
                   </p>
                 </div>
               </div>
