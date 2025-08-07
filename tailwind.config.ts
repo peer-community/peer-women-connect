@@ -64,14 +64,25 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'gradient-subtle': 'var(--gradient-subtle)'
+				'gradient-subtle': 'var(--gradient-subtle)',
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)'
 			},
 			backgroundColor: {
-				'accent-soft': 'hsl(var(--accent-soft))'
+				'accent-soft': 'hsl(var(--accent-soft))',
+				'tertiary': 'hsl(var(--tertiary))',
+				'supportive': 'hsl(var(--supportive))',
+				'highlight': 'hsl(var(--highlight))'
+			},
+			textColor: {
+				'tertiary': 'hsl(var(--tertiary))',
+				'supportive': 'hsl(var(--supportive))',
+				'highlight': 'hsl(var(--highlight))'
 			},
 			boxShadow: {
 				'minimal': 'var(--shadow-minimal)',
-				'soft': 'var(--shadow-soft)'
+				'soft': 'var(--shadow-soft)',
+				'colorful': 'var(--shadow-colorful)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

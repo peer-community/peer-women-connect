@@ -17,14 +17,14 @@ export const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center max-w-5xl pt-20">
         <div className="animate-fade-in space-y-8">
           <div className="space-y-6">
-            <h1 className="text-5xl md:text-7xl font-light text-foreground leading-tight tracking-tight">
-              Empowering Women
+            <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight tracking-tight">
+              Your Ultimate Ally in
               <br />
-              <span className="font-medium text-accent">Through Connection</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">Women's Health</span>
             </h1>
             
-            <p className="text-xl md:text-2xl text-muted-foreground font-light max-w-3xl mx-auto leading-relaxed">
-              A social platform where women connect, build communities, and find the health information they need at every stage of life.
+            <p className="text-xl md:text-2xl text-muted-foreground font-normal max-w-4xl mx-auto leading-relaxed">
+              Pioneering startup leveraging cutting-edge technologies and inclusive approaches to support women's reproductive health from menstruation to menopause, conception to postpartum.
             </p>
           </div>
           

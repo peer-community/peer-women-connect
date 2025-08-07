@@ -2,63 +2,74 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Peer - Empowering Women's Health Platform Design System */
+/* PEER - Empowering Women's Health Platform Design System */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 15%;
+    /* Brand Colors - PEER Primary Palette */
+    --background: 50 95% 98%; /* Cream #FFF8E4 */
+    --foreground: 0 0% 0%; /* Black #000000 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 15%;
+    --card: 50 95% 98%;
+    --card-foreground: 0 0% 0%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 15%;
+    --popover: 50 95% 98%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 240 6% 10%;
+    /* Primary Brand Color - Pink/Red */
+    --primary: 344 64% 46%; /* #C52344 */
     --primary-foreground: 0 0% 100%;
     
-    --secondary: 240 5% 96%;
-    --secondary-foreground: 240 6% 10%;
+    /* Secondary - Light Yellow */
+    --secondary: 46 70% 90%; /* #FFE8B6 */
+    --secondary-foreground: 0 0% 0%;
 
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 4% 46%;
+    --muted: 46 70% 90%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 260 50% 55%;
+    /* Accent - Coral/Orange */
+    --accent: 14 100% 73%; /* #FF8574 */
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84% 60%;
+    /* Supporting Blue */
+    --tertiary: 209 78% 56%; /* #308CEB */
+    --tertiary-foreground: 0 0% 100%;
+
+    /* Supporting Green */
+    --supportive: 115 30% 84%; /* #CBE6C9 */
+    --supportive-foreground: 0 0% 0%;
+
+    /* Yellow/Gold Accent */
+    --highlight: 51 84% 45%; /* #CFB921 */
+    --highlight-foreground: 0 0% 0%;
+
+    --destructive: 344 64% 46%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 240 6% 10%;
+    --border: 46 40% 85%;
+    --input: 46 40% 85%;
+    --ring: 344 64% 46%;
 
-    /* Minimal design tokens */
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(240 5% 98%) 100%);
-    --accent-soft: 260 30% 95%;
+    /* Fun and vibrant design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(344 64% 46%) 0%, hsl(14 100% 73%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(51 84% 45%) 0%, hsl(14 100% 73%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(50 95% 98%) 0%, hsl(46 70% 90%) 100%);
+    --accent-soft: 14 50% 95%;
     
-    --shadow-minimal: 0 1px 3px hsl(240 5% 80% / 0.12);
-    --shadow-soft: 0 4px 12px hsl(240 5% 80% / 0.15);
+    --shadow-colorful: 0 4px 20px hsl(344 64% 46% / 0.15);
+    --shadow-soft: 0 2px 10px hsl(0 0% 0% / 0.08);
     
-    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
@@ -93,7 +104,7 @@
 
     --gradient-subtle: linear-gradient(180deg, hsl(240 10% 4%) 0%, hsl(240 8% 6%) 100%);
     --accent-soft: 260 15% 15%;
-  }
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

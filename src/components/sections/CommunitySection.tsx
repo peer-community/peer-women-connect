@@ -36,14 +36,14 @@ export const CommunitySection = () => {
             {/* Content */}
             <div className="space-y-12 animate-fade-in">
               <div className="space-y-6">
-                <div className="w-12 h-12 rounded-full bg-accent-soft flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-accent"></div>
+                <div className="w-16 h-16 rounded-2xl bg-gradient-primary flex items-center justify-center shadow-colorful">
+                  <span className="text-2xl">🌸</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-normal text-foreground mb-4">
+                  <h3 className="text-2xl font-bold text-foreground mb-4">
                     Safe Spaces for Connection
                   </h3>
-                  <p className="text-muted-foreground text-lg font-light leading-relaxed">
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     Join communities of women who understand your journey. Share experiences, 
                     ask questions, and find support at every stage of life.
                   </p>
@@ -51,14 +51,14 @@ export const CommunitySection = () => {
               </div>
 
               <div className="space-y-6">
-                <div className="w-12 h-12 rounded-full bg-accent-soft flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-accent"></div>
+                <div className="w-16 h-16 rounded-2xl bg-gradient-secondary flex items-center justify-center shadow-colorful">
+                  <span className="text-2xl">🎓</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-normal text-foreground mb-4">
+                  <h3 className="text-2xl font-bold text-foreground mb-4">
                     Expert-Led Courses
                   </h3>
-                  <p className="text-muted-foreground text-lg font-light leading-relaxed">
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     Access evidence-based courses on reproductive health, mental wellness, 
                     career development, and life transitions designed specifically for women.
                   </p>
@@ -66,14 +66,14 @@ export const CommunitySection = () => {
               </div>
 
               <div className="space-y-6">
-                <div className="w-12 h-12 rounded-full bg-accent-soft flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-accent"></div>
+                <div className="w-16 h-16 rounded-2xl bg-tertiary flex items-center justify-center shadow-colorful">
+                  <span className="text-2xl">🚀</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-normal text-foreground mb-4">
+                  <h3 className="text-2xl font-bold text-foreground mb-4">
                     Personal Growth
                   </h3>
-                  <p className="text-muted-foreground text-lg font-light leading-relaxed">
+                  <p className="text-muted-foreground text-lg leading-relaxed">
                     Develop skills, build confidence, and create lasting connections 
                     through our comprehensive wellness and empowerment programs.
                   </p>
@@ -83,32 +83,32 @@ export const CommunitySection = () => {
 
             {/* Newsletter Signup Card */}
             <div className="animate-scale-in">
-              <Card className="shadow-soft border border-border bg-background">
-                <CardHeader className="text-center space-y-6 pb-8">
-                  <CardTitle className="text-3xl font-light text-foreground">
-                    Work in Progress
+              <Card className="shadow-colorful border-2 border-accent bg-background rounded-3xl overflow-hidden">
+                <CardHeader className="text-center space-y-6 pb-8 bg-gradient-subtle">
+                  <CardTitle className="text-3xl font-bold text-foreground">
+                    🚧 Work in Progress
                   </CardTitle>
-                  <CardDescription className="text-lg text-muted-foreground font-light">
-                    We're crafting something amazing for you. Be the first to know when we launch.
+                  <CardDescription className="text-lg text-muted-foreground">
+                    We're crafting something <span className="font-bold text-accent">amazing</span> for you. Be the first to know when we launch!
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent className="space-y-6 p-8">
                   <form onSubmit={handleNewsletterSignup} className="space-y-4">
                     <Input
                       type="email"
                       placeholder="Enter your email address"
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
-                      className="h-12 text-base border-border focus:border-accent rounded-lg"
+                      className="h-14 text-base border-2 border-border focus:border-accent rounded-2xl px-6"
                       required
                     />
                     <Button 
                       type="submit" 
-                      variant="minimal" 
+                      variant="default" 
                       size="lg" 
-                      className="w-full text-base h-12"
+                      className="w-full text-base h-14 rounded-2xl bg-gradient-primary hover:shadow-colorful transition-all duration-300"
                     >
-                      Join Our Newsletter
+                      Join Our Newsletter 💌
                     </Button>
                   </form>
                   <p className="text-sm text-muted-foreground text-center">

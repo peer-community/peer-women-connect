@@ -8,20 +8,35 @@ export const MissionSection = () => {
               Our Mission
             </h2>
             
-            <div className="space-y-8 text-lg md:text-xl text-muted-foreground font-light leading-relaxed">
-              <p>
-                We support women at different stages of their lives, helping them connect, 
-                build communities, and find the information they need.
-              </p>
+            <div className="grid md:grid-cols-3 gap-8 text-center">
+              <div className="space-y-4">
+                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-primary flex items-center justify-center">
+                  <span className="text-2xl font-bold text-white">💪</span>
+                </div>
+                <h3 className="text-xl font-bold text-foreground">EMPOWERMENT</h3>
+                <p className="text-muted-foreground">Breaking isolation through knowledge and community support</p>
+              </div>
               
-              <p className="text-foreground font-normal text-xl md:text-2xl">
-                Knowledge and connection are the true keys to breaking isolation 
-                and empowering women's freedom.
-              </p>
+              <div className="space-y-4">
+                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-secondary flex items-center justify-center">
+                  <span className="text-2xl font-bold text-white">🤝</span>
+                </div>
+                <h3 className="text-xl font-bold text-foreground">COMMUNITY</h3>
+                <p className="text-muted-foreground">Connecting women at every stage of their reproductive journey</p>
+              </div>
               
-              <p>
-                We also help companies recognize the immense value of breaking taboos and 
-                stereotypes around female health, driving meaningful change and awareness.
+              <div className="space-y-4">
+                <div className="w-16 h-16 mx-auto rounded-full bg-tertiary flex items-center justify-center">
+                  <span className="text-2xl font-bold text-white">💡</span>
+                </div>
+                <h3 className="text-xl font-bold text-foreground">EDUCATION</h3>
+                <p className="text-muted-foreground">Accessible, real information for informed health decisions</p>
+              </div>
+            </div>
+            
+            <div className="text-center mt-12">
+              <p className="text-xl md:text-2xl font-bold text-foreground bg-gradient-primary bg-clip-text text-transparent">
+                Pop • Real • Inclusive • Educational • Easy • Approachable • Fun • Cool
               </p>
             </div>
           </div>
