@@ -23,12 +23,9 @@ export const HeroSection = () => {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-4 max-w-3xl mx-auto leading-relaxed">
-            A social platform where women connect, build communities and find the health information they need.
-          </p>
-          
-          <p className="text-2xl md:text-3xl font-bold text-primary-glow mb-8 animate-pulse">
-            At every stage of life.
+          <p className="text-xl md:text-2xl text-primary-foreground/90 mb-8 max-w-3xl mx-auto leading-relaxed">
+            A social platform where women connect, build communities and find the health information they need{" "}
+            <span className="font-bold text-primary-glow">at every stage of life.</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
