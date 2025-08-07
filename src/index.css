@@ -7,45 +7,41 @@
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 340 10% 15%;
+    --foreground: 240 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 340 10% 15%;
+    --card-foreground: 240 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 340 10% 15%;
+    --popover-foreground: 240 10% 15%;
 
-    --primary: 280 65% 60%;
+    --primary: 240 6% 10%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 290 70% 75%;
+    
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 6% 10%;
 
-    --secondary: 320 30% 95%;
-    --secondary-foreground: 340 15% 25%;
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 4% 46%;
 
-    --muted: 320 20% 96%;
-    --muted-foreground: 340 8% 55%;
+    --accent: 260 50% 55%;
+    --accent-foreground: 0 0% 100%;
 
-    --accent: 200 100% 85%;
-    --accent-foreground: 200 50% 25%;
-
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 320 15% 92%;
-    --input: 320 15% 94%;
-    --ring: 280 65% 60%;
+    --border: 240 6% 90%;
+    --input: 240 6% 90%;
+    --ring: 240 6% 10%;
 
-    /* Custom design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(280 65% 60%), hsl(290 70% 75%));
-    --gradient-secondary: linear-gradient(135deg, hsl(200 100% 85%), hsl(220 80% 90%));
-    --gradient-hero: linear-gradient(135deg, hsl(280 65% 60%) 0%, hsl(290 70% 75%) 50%, hsl(200 100% 85%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(320 30% 98%) 100%);
+    /* Minimal design tokens */
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(240 5% 98%) 100%);
+    --accent-soft: 260 30% 95%;
     
-    --shadow-soft: 0 4px 20px hsl(280 65% 60% / 0.1);
-    --shadow-medium: 0 8px 30px hsl(280 65% 60% / 0.15);
-    --shadow-strong: 0 12px 40px hsl(280 65% 60% / 0.2);
-
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --shadow-minimal: 0 1px 3px hsl(240 5% 80% / 0.12);
+    --shadow-soft: 0 4px 12px hsl(240 5% 80% / 0.15);
+    
+    --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
@@ -67,39 +63,37 @@
   }
 
   .dark {
-    --background: 340 15% 8%;
-    --foreground: 320 30% 95%;
+    --background: 240 10% 4%;
+    --foreground: 240 5% 96%;
 
-    --card: 340 15% 10%;
-    --card-foreground: 320 30% 95%;
+    --card: 240 10% 4%;
+    --card-foreground: 240 5% 96%;
 
-    --popover: 340 15% 10%;
-    --popover-foreground: 320 30% 95%;
+    --popover: 240 10% 4%;
+    --popover-foreground: 240 5% 96%;
 
-    --primary: 290 70% 75%;
-    --primary-foreground: 340 15% 8%;
-    --primary-glow: 280 65% 60%;
+    --primary: 240 5% 96%;
+    --primary-foreground: 240 6% 10%;
+    
+    --secondary: 240 4% 16%;
+    --secondary-foreground: 240 5% 96%;
 
-    --secondary: 340 12% 15%;
-    --secondary-foreground: 320 30% 90%;
+    --muted: 240 4% 16%;
+    --muted-foreground: 240 5% 65%;
 
-    --muted: 340 12% 12%;
-    --muted-foreground: 340 8% 65%;
+    --accent: 260 50% 55%;
+    --accent-foreground: 240 6% 10%;
 
-    --accent: 200 80% 70%;
-    --accent-foreground: 340 15% 8%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 240 5% 96%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 320 30% 95%;
+    --border: 240 4% 16%;
+    --input: 240 4% 16%;
+    --ring: 240 5% 96%;
 
-    --border: 340 12% 20%;
-    --input: 340 12% 18%;
-    --ring: 290 70% 75%;
-
-    --gradient-primary: linear-gradient(135deg, hsl(290 70% 75%), hsl(280 65% 60%));
-    --gradient-secondary: linear-gradient(135deg, hsl(200 80% 70%), hsl(220 70% 80%));
-    --gradient-hero: linear-gradient(135deg, hsl(290 70% 75%) 0%, hsl(280 65% 60%) 50%, hsl(200 80% 70%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(340 15% 8%) 0%, hsl(340 12% 10%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 4%) 0%, hsl(240 8% 6%) 100%);
+    --accent-soft: 260 15% 15%;
+  }
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
