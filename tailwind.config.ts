@@ -26,7 +26,8 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -64,25 +65,15 @@ export default {
 				}
 			},
 			backgroundImage: {
-				'gradient-subtle': 'var(--gradient-subtle)',
 				'gradient-primary': 'var(--gradient-primary)',
-				'gradient-secondary': 'var(--gradient-secondary)'
-			},
-			backgroundColor: {
-				'accent-soft': 'hsl(var(--accent-soft))',
-				'tertiary': 'hsl(var(--tertiary))',
-				'supportive': 'hsl(var(--supportive))',
-				'highlight': 'hsl(var(--highlight))'
-			},
-			textColor: {
-				'tertiary': 'hsl(var(--tertiary))',
-				'supportive': 'hsl(var(--supportive))',
-				'highlight': 'hsl(var(--highlight))'
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-subtle': 'var(--gradient-subtle)'
 			},
 			boxShadow: {
-				'minimal': 'var(--shadow-minimal)',
 				'soft': 'var(--shadow-soft)',
-				'colorful': 'var(--shadow-colorful)'
+				'medium': 'var(--shadow-medium)',
+				'strong': 'var(--shadow-strong)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

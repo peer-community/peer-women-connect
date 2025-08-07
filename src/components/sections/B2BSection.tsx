@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import b2bIcon from "@/assets/b2b-icon.png";
 
 export const B2BSection = () => {
   const [formData, setFormData] = useState({
@@ -32,56 +33,56 @@ export const B2BSection = () => {
   };
 
   return (
-    <section className="py-32 bg-background">
+    <section className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-20 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-light text-foreground mb-6 tracking-tight">
+          <div className="text-center mb-16 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
               B2B Services
             </h2>
-            <p className="text-xl text-muted-foreground font-light max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Partner with us to create inclusive, supportive workplace cultures that recognize 
               and address women's health needs.
             </p>
           </div>
 
           {/* Company Partners */}
-          <div className="mb-20 animate-fade-in">
-            <h3 className="text-2xl font-light text-center text-foreground mb-12">
+          <div className="mb-16 animate-fade-in">
+            <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
               Trusted by Forward-Thinking Companies
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
-              <Card className="text-center shadow-minimal hover:shadow-soft transition-all duration-200 border border-border">
-                <CardHeader className="space-y-4">
-                  <div className="w-16 h-16 bg-accent-soft rounded-full mx-auto flex items-center justify-center">
-                    <span className="text-2xl font-light text-accent">T</span>
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-primary-foreground">T</span>
                   </div>
-                  <CardTitle className="text-xl font-normal">TechFlow Solutions</CardTitle>
-                  <CardDescription className="text-muted-foreground font-light">
+                  <CardTitle className="text-xl">TechFlow Solutions</CardTitle>
+                  <CardDescription>
                     Implementing comprehensive women's health support programs for their 500+ female employees.
                   </CardDescription>
                 </CardHeader>
               </Card>
 
-              <Card className="text-center shadow-minimal hover:shadow-soft transition-all duration-200 border border-border">
-                <CardHeader className="space-y-4">
-                  <div className="w-16 h-16 bg-accent-soft rounded-full mx-auto flex items-center justify-center">
-                    <span className="text-2xl font-light text-accent">W</span>
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-accent-foreground">W</span>
                   </div>
-                  <CardTitle className="text-xl font-normal">WellCorp Industries</CardTitle>
-                  <CardDescription className="text-muted-foreground font-light">
+                  <CardTitle className="text-xl">WellCorp Industries</CardTitle>
+                  <CardDescription>
                     Breaking workplace taboos around menstrual health and menopause with our educational workshops.
                   </CardDescription>
                 </CardHeader>
               </Card>
 
-              <Card className="text-center shadow-minimal hover:shadow-soft transition-all duration-200 border border-border">
-                <CardHeader className="space-y-4">
-                  <div className="w-16 h-16 bg-accent-soft rounded-full mx-auto flex items-center justify-center">
-                    <span className="text-2xl font-light text-accent">I</span>
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-primary-foreground">I</span>
                   </div>
-                  <CardTitle className="text-xl font-normal">Innovate Healthcare</CardTitle>
-                  <CardDescription className="text-muted-foreground font-light">
+                  <CardTitle className="text-xl">Innovate Healthcare</CardTitle>
+                  <CardDescription>
                     Creating inclusive policies and support networks for women in leadership positions.
                   </CardDescription>
                 </CardHeader>
@@ -89,48 +90,50 @@ export const B2BSection = () => {
             </div>
           </div>
 
-          <div className="grid lg:grid-cols-2 gap-16 items-start">
+          <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Services */}
-            <div className="space-y-12 animate-fade-in">
-              <div className="space-y-6">
-                <div className="w-12 h-12 rounded-full bg-accent-soft flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-accent"></div>
-                </div>
+            <div className="space-y-8 animate-fade-in">
+              <div className="flex items-start space-x-4">
+                <img 
+                  src={b2bIcon} 
+                  alt="B2B services icon representing corporate collaboration and growth"
+                  className="w-16 h-16 mt-2"
+                />
                 <div>
-                  <h3 className="text-2xl font-normal text-foreground mb-4">
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">
                     Workplace Wellness Programs
                   </h3>
-                  <p className="text-muted-foreground text-lg font-light leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed">
                     Custom programs that address women's health topics often overlooked in traditional 
                     corporate wellness initiatives.
                   </p>
                 </div>
               </div>
 
-              <div className="space-y-6">
-                <div className="w-12 h-12 rounded-full bg-accent-soft flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-accent"></div>
+              <div className="flex items-start space-x-4">
+                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mt-2">
+                  <span className="text-2xl">🏢</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-normal text-foreground mb-4">
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">
                     Policy Consulting
                   </h3>
-                  <p className="text-muted-foreground text-lg font-light leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed">
                     Help organizations develop inclusive policies that support women throughout 
                     their reproductive health journey and career progression.
                   </p>
                 </div>
               </div>
 
-              <div className="space-y-6">
-                <div className="w-12 h-12 rounded-full bg-accent-soft flex items-center justify-center">
-                  <div className="w-6 h-6 rounded-full bg-accent"></div>
+              <div className="flex items-start space-x-4">
+                <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mt-2">
+                  <span className="text-2xl">📊</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-normal text-foreground mb-4">
+                  <h3 className="text-2xl font-semibold text-foreground mb-3">
                     Training & Education
                   </h3>
-                  <p className="text-muted-foreground text-lg font-light leading-relaxed">
+                  <p className="text-muted-foreground leading-relaxed">
                     Evidence-based workshops and training sessions that break down barriers 
                     and create supportive workplace cultures.
                   </p>
@@ -140,59 +143,65 @@ export const B2BSection = () => {
 
             {/* Contact Form */}
             <div className="animate-scale-in">
-              <Card className="shadow-soft border border-border bg-background">
-                <CardHeader className="space-y-4">
-                  <CardTitle className="text-3xl font-light text-foreground">
+              <Card className="shadow-medium border-2 border-primary/20">
+                <CardHeader>
+                  <CardTitle className="text-3xl font-bold text-foreground">
                     Partner With Us
                   </CardTitle>
-                  <CardDescription className="text-lg text-muted-foreground font-light">
+                  <CardDescription className="text-lg text-muted-foreground">
                     Ready to transform your workplace culture? Let's discuss how we can help.
                   </CardDescription>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent>
                   <form onSubmit={handleContactSubmit} className="space-y-4">
-                    <Input
-                      type="text"
-                      name="company"
-                      placeholder="Company name"
-                      value={formData.company}
-                      onChange={handleInputChange}
-                      className="h-12 text-base border-border focus:border-accent rounded-lg"
-                      required
-                    />
-                    <Input
-                      type="email"
-                      name="email"
-                      placeholder="Work email address"
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      className="h-12 text-base border-border focus:border-accent rounded-lg"
-                      required
-                    />
-                    <Textarea
-                      name="message"
-                      placeholder="Tell us about your organization's needs..."
-                      value={formData.message}
-                      onChange={handleInputChange}
-                      className="min-h-24 text-base border-border focus:border-accent resize-none rounded-lg"
-                      rows={4}
-                    />
+                    <div>
+                      <Input
+                        type="text"
+                        name="company"
+                        placeholder="Company name"
+                        value={formData.company}
+                        onChange={handleInputChange}
+                        className="h-12 text-base border-2 focus:border-primary"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <Input
+                        type="email"
+                        name="email"
+                        placeholder="Work email address"
+                        value={formData.email}
+                        onChange={handleInputChange}
+                        className="h-12 text-base border-2 focus:border-primary"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <Textarea
+                        name="message"
+                        placeholder="Tell us about your organization's needs..."
+                        value={formData.message}
+                        onChange={handleInputChange}
+                        className="min-h-24 text-base border-2 focus:border-primary resize-none"
+                        rows={4}
+                      />
+                    </div>
                     <Button 
                       type="submit" 
-                      variant="minimal" 
+                      variant="hero" 
                       size="lg" 
-                      className="w-full text-base h-12"
+                      className="w-full text-lg h-12"
                     >
                       Get In Touch
                     </Button>
                   </form>
-                  <div className="pt-6 border-t border-border">
+                  <div className="mt-6 pt-6 border-t border-border">
                     <p className="text-sm text-muted-foreground text-center mb-2">
                       Prefer email? Reach us directly at:
                     </p>
                     <a 
                       href="mailto:partnerships@peer-health.com" 
-                      className="text-accent hover:text-accent/80 font-normal text-center block transition-colors"
+                      className="text-primary hover:text-primary-glow font-medium text-center block transition-colors"
                     >
                       partnerships@peer-health.com
                     </a>

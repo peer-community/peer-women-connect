@@ -2,109 +2,104 @@
 @tailwind components;
 @tailwind utilities;
 
-/* PEER - Empowering Women's Health Platform Design System */
+/* Peer - Empowering Women's Health Platform Design System */
 
 @layer base {
   :root {
-    /* Brand Colors - PEER Primary Palette */
-    --background: 50 95% 98%; /* Cream #FFF8E4 */
-    --foreground: 0 0% 0%; /* Black #000000 */
+    --background: 0 0% 100%;
+    --foreground: 340 10% 15%;
 
-    --card: 50 95% 98%;
-    --card-foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 340 10% 15%;
 
-    --popover: 50 95% 98%;
-    --popover-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 340 10% 15%;
 
-    /* Primary Brand Color - Pink/Red */
-    --primary: 344 64% 46%; /* #C52344 */
+    --primary: 280 65% 60%;
     --primary-foreground: 0 0% 100%;
-    
-    /* Secondary - Light Yellow */
-    --secondary: 46 70% 90%; /* #FFE8B6 */
-    --secondary-foreground: 0 0% 0%;
+    --primary-glow: 290 70% 75%;
 
-    --muted: 46 70% 90%;
-    --muted-foreground: 0 0% 40%;
+    --secondary: 320 30% 95%;
+    --secondary-foreground: 340 15% 25%;
 
-    /* Accent - Coral/Orange */
-    --accent: 14 100% 73%; /* #FF8574 */
-    --accent-foreground: 0 0% 100%;
+    --muted: 320 20% 96%;
+    --muted-foreground: 340 8% 55%;
 
-    /* Supporting Blue */
-    --tertiary: 209 78% 56%; /* #308CEB */
-    --tertiary-foreground: 0 0% 100%;
+    --accent: 200 100% 85%;
+    --accent-foreground: 200 50% 25%;
 
-    /* Supporting Green */
-    --supportive: 115 30% 84%; /* #CBE6C9 */
-    --supportive-foreground: 0 0% 0%;
-
-    /* Yellow/Gold Accent */
-    --highlight: 51 84% 45%; /* #CFB921 */
-    --highlight-foreground: 0 0% 0%;
-
-    --destructive: 344 64% 46%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 46 40% 85%;
-    --input: 46 40% 85%;
-    --ring: 344 64% 46%;
+    --border: 320 15% 92%;
+    --input: 320 15% 94%;
+    --ring: 280 65% 60%;
 
-    /* Fun and vibrant design tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(344 64% 46%) 0%, hsl(14 100% 73%) 100%);
-    --gradient-secondary: linear-gradient(135deg, hsl(51 84% 45%) 0%, hsl(14 100% 73%) 100%);
-    --gradient-subtle: linear-gradient(180deg, hsl(50 95% 98%) 0%, hsl(46 70% 90%) 100%);
-    --accent-soft: 14 50% 95%;
+    /* Custom design tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(280 65% 60%), hsl(290 70% 75%));
+    --gradient-secondary: linear-gradient(135deg, hsl(200 100% 85%), hsl(220 80% 90%));
+    --gradient-hero: linear-gradient(135deg, hsl(280 65% 60%) 0%, hsl(290 70% 75%) 50%, hsl(200 100% 85%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%) 0%, hsl(320 30% 98%) 100%);
     
-    --shadow-colorful: 0 4px 20px hsl(344 64% 46% / 0.15);
-    --shadow-soft: 0 2px 10px hsl(0 0% 0% / 0.08);
-    
+    --shadow-soft: 0 4px 20px hsl(280 65% 60% / 0.1);
+    --shadow-medium: 0 8px 30px hsl(280 65% 60% / 0.15);
+    --shadow-strong: 0 12px 40px hsl(280 65% 60% / 0.2);
+
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
+
     --sidebar-foreground: 240 5.3% 26.1%;
+
     --sidebar-primary: 240 5.9% 10%;
+
     --sidebar-primary-foreground: 0 0% 98%;
+
     --sidebar-accent: 240 4.8% 95.9%;
+
     --sidebar-accent-foreground: 240 5.9% 10%;
+
     --sidebar-border: 220 13% 91%;
+
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 240 10% 4%;
-    --foreground: 240 5% 96%;
+    --background: 340 15% 8%;
+    --foreground: 320 30% 95%;
 
-    --card: 240 10% 4%;
-    --card-foreground: 240 5% 96%;
+    --card: 340 15% 10%;
+    --card-foreground: 320 30% 95%;
 
-    --popover: 240 10% 4%;
-    --popover-foreground: 240 5% 96%;
+    --popover: 340 15% 10%;
+    --popover-foreground: 320 30% 95%;
 
-    --primary: 240 5% 96%;
-    --primary-foreground: 240 6% 10%;
-    
-    --secondary: 240 4% 16%;
-    --secondary-foreground: 240 5% 96%;
+    --primary: 290 70% 75%;
+    --primary-foreground: 340 15% 8%;
+    --primary-glow: 280 65% 60%;
 
-    --muted: 240 4% 16%;
-    --muted-foreground: 240 5% 65%;
+    --secondary: 340 12% 15%;
+    --secondary-foreground: 320 30% 90%;
 
-    --accent: 260 50% 55%;
-    --accent-foreground: 240 6% 10%;
+    --muted: 340 12% 12%;
+    --muted-foreground: 340 8% 65%;
 
-    --destructive: 0 63% 31%;
-    --destructive-foreground: 240 5% 96%;
+    --accent: 200 80% 70%;
+    --accent-foreground: 340 15% 8%;
 
-    --border: 240 4% 16%;
-    --input: 240 4% 16%;
-    --ring: 240 5% 96%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 320 30% 95%;
 
-    --gradient-subtle: linear-gradient(180deg, hsl(240 10% 4%) 0%, hsl(240 8% 6%) 100%);
-    --accent-soft: 260 15% 15%;
-    
+    --border: 340 12% 20%;
+    --input: 340 12% 18%;
+    --ring: 290 70% 75%;
+
+    --gradient-primary: linear-gradient(135deg, hsl(290 70% 75%), hsl(280 65% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(200 80% 70%), hsl(220 70% 80%));
+    --gradient-hero: linear-gradient(135deg, hsl(290 70% 75%) 0%, hsl(280 65% 60%) 50%, hsl(200 80% 70%) 100%);
+    --gradient-subtle: linear-gradient(180deg, hsl(340 15% 8%) 0%, hsl(340 12% 10%) 100%);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;

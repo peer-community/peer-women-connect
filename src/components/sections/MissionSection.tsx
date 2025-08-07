@@ -1,39 +1,29 @@
 export const MissionSection = () => {
   return (
-    <section className="py-32 bg-background">
+    <section className="py-20 bg-gradient-subtle">
       <div className="container mx-auto px-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="animate-fade-in text-center space-y-12">
-            <h2 className="text-4xl md:text-5xl font-light text-foreground tracking-tight">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-8 text-foreground">
               Our Mission
             </h2>
             
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div className="space-y-4">
-                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-primary flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">💪</span>
-                </div>
-                <h3 className="text-xl font-bold text-foreground">EMPOWERMENT</h3>
-                <p className="text-muted-foreground">Breaking isolation through knowledge and community support</p>
-              </div>
+            <div className="prose prose-lg md:prose-xl max-w-none text-foreground/80 leading-relaxed">
+              <p className="mb-6">
+                We support women at different stages of their lives, helping them connect, 
+                build communities, and find the information they need.
+              </p>
               
-              <div className="space-y-4">
-                <div className="w-16 h-16 mx-auto rounded-full bg-gradient-secondary flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">🤝</span>
-                </div>
-                <h3 className="text-xl font-bold text-foreground">COMMUNITY</h3>
-                <p className="text-muted-foreground">Connecting women at every stage of their reproductive journey</p>
-              </div>
+              <p className="mb-6 text-xl font-medium text-primary">
+                Because knowledge and connection are the true keys to breaking isolation 
+                and empowering women's freedom.
+              </p>
               
-              <div className="space-y-4">
-                <div className="w-16 h-16 mx-auto rounded-full bg-tertiary flex items-center justify-center">
-                  <span className="text-2xl font-bold text-white">💡</span>
-                </div>
-                <h3 className="text-xl font-bold text-foreground">EDUCATION</h3>
-                <p className="text-muted-foreground">Accessible, real information for informed health decisions</p>
-              </div>
+              <p>
+                We also help companies recognize the immense value of breaking taboos and 
+                stereotypes around female health, driving meaningful change and awareness.
+              </p>
             </div>
-            
           </div>
         </div>
       </div>
