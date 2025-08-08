@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Building2, BarChart3 } from "lucide-react";
 import b2bIcon from "@/assets/b2b-icon.png";
 
 export const B2BSection = () => {
@@ -38,8 +39,8 @@ export const B2BSection = () => {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">🏢</span>
+                <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <Building2 size={48} color="#308CEB" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {t('b2b.service2.title')}
@@ -50,8 +51,8 @@ export const B2BSection = () => {
               </div>
 
               <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-2xl">📊</span>
+                <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                  <BarChart3 size={48} color="#308CEB" />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {t('b2b.service3.title')}
