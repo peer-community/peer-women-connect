@@ -80,7 +80,7 @@ export const B2BSection = () => {
           </div>
 
           {/* Company Partners */}
-          <div className="animate-fade-in">
+          <div className="animate-fade-in py-16 -mx-6 px-6" style={{ backgroundColor: '#FFF8E4' }}>
             <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
               {t('b2b.companies.title')}
             </h3>
