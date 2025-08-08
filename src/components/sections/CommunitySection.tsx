@@ -34,55 +34,48 @@ export const CommunitySection = () => {
             </p>
           </div>
 
-          <div className="max-w-4xl mx-auto">
-            {/* Content */}
-            <div className="space-y-12 animate-fade-in">
-              <div className="flex items-start space-x-6">
+          <div className="grid md:grid-cols-3 gap-8 animate-fade-in">
+            <div className="text-center">
+              <div className="flex justify-center mb-4">
                 <img 
                   src={communityIcon} 
                   alt="Community connection icon representing women supporting each other"
-                  className="w-20 h-20 mt-2"
+                  className="w-16 h-16"
                 />
-                <div>
-                  <h3 className="text-3xl font-semibold text-foreground mb-4">
-                    Safe Spaces for Every Stage
-                  </h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    From first periods to menopause, pregnancy to postpartum - connect with women 
-                    who truly understand your reproductive health journey. Share experiences in judgment-free spaces.
-                  </p>
-                </div>
               </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">
+                Safe Spaces for Every Stage
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                From first periods to menopause, pregnancy to postpartum - connect with women 
+                who truly understand your reproductive health journey. Share experiences in judgment-free spaces.
+              </p>
+            </div>
 
-              <div className="flex items-start space-x-6">
-                <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mt-2">
-                  <span className="text-3xl">📚</span>
-                </div>
-                <div>
-                  <h3 className="text-3xl font-semibold text-foreground mb-4">
-                    Evidence-Based Education
-                  </h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Learn from healthcare experts about menstrual health, fertility, pregnancy, 
-                    mental wellness, and reproductive rights. Knowledge that empowers real decisions.
-                  </p>
-                </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">📚</span>
               </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">
+                Evidence-Based Education
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Learn from healthcare experts about menstrual health, fertility, pregnancy, 
+                mental wellness, and reproductive rights. Knowledge that empowers real decisions.
+              </p>
+            </div>
 
-              <div className="flex items-start space-x-6">
-                <div className="w-20 h-20 bg-gradient-secondary rounded-full flex items-center justify-center mt-2">
-                  <span className="text-3xl">🌱</span>
-                </div>
-                <div>
-                  <h3 className="text-3xl font-semibold text-foreground mb-4">
-                    Empowerment & Support
-                  </h3>
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Build confidence in your body, your choices, and your voice. Break free from 
-                    taboos and stereotypes with our inclusive wellness and empowerment programs.
-                  </p>
-                </div>
+            <div className="text-center">
+              <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-4">
+                <span className="text-2xl">🌱</span>
               </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">
+                Empowerment & Support
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Build confidence in your body, your choices, and your voice. Break free from 
+                taboos and stereotypes with our inclusive wellness and empowerment programs.
+              </p>
             </div>
           </div>
         </div>
