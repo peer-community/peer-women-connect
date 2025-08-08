@@ -110,11 +110,11 @@ export const B2BSection = () => {
           </div>
 
           {/* Partner With Us - Minimal Section */}
-          <div className="animate-scale-in text-center">
+          <div className="animate-scale-in text-center max-w-2xl mx-auto border-2 border-primary/20 rounded-lg p-8 bg-card">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
               Partner With Us
             </h3>
-            <p className="text-muted-foreground mb-6 max-w-md mx-auto">
+            <p className="text-muted-foreground mb-6">
               Ready to transform your workplace culture? Let's discuss how we can help.
             </p>
             <a 
