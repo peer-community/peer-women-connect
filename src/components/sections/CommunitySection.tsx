@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/contexts/LanguageContext";
-import communityIcon from "@/assets/community-icon.png";
+import { Fingerprint } from "lucide-react";
 
 export const CommunitySection = () => {
   const [email, setEmail] = useState("");
@@ -38,11 +38,9 @@ export const CommunitySection = () => {
           <div className="grid md:grid-cols-3 gap-8 animate-fade-in">
             <div className="text-center">
               <div className="flex justify-center mb-4">
-                <img 
-                  src={communityIcon} 
-                  alt="Community connection icon representing women supporting each other"
-                  className="w-16 h-16"
-                />
+                <div className="w-16 h-16 flex items-center justify-center">
+                  <Fingerprint size={48} color="#C52344" />
+                </div>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
                 {t('community.safeSpaces.title')}
