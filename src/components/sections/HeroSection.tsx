@@ -3,30 +3,13 @@ import { Button } from "@/components/ui/button";
 export const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
-      {/* Animated Background Dots */}
-      <div className="absolute inset-0">
-        {/* Primary brand color dots */}
-        <div className="absolute top-[10%] left-[5%] w-2 h-2 bg-primary rounded-full animate-float opacity-60"></div>
-        <div className="absolute top-[25%] right-[8%] w-3 h-3 bg-primary rounded-full animate-float opacity-40" style={{ animationDelay: '0.5s' }}></div>
-        <div className="absolute bottom-[30%] left-[12%] w-1.5 h-1.5 bg-primary rounded-full animate-float opacity-50" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-[60%] right-[15%] w-2.5 h-2.5 bg-primary rounded-full animate-float opacity-45" style={{ animationDelay: '1.5s' }}></div>
-        
-        {/* Primary glow color dots */}
-        <div className="absolute top-[15%] right-[25%] w-1 h-1 bg-primary-glow rounded-full animate-float opacity-70" style={{ animationDelay: '0.3s' }}></div>
-        <div className="absolute bottom-[20%] right-[5%] w-2 h-2 bg-primary-glow rounded-full animate-float opacity-55" style={{ animationDelay: '0.8s' }}></div>
-        <div className="absolute top-[45%] left-[8%] w-1.5 h-1.5 bg-primary-glow rounded-full animate-float opacity-60" style={{ animationDelay: '1.3s' }}></div>
-        <div className="absolute bottom-[50%] right-[30%] w-3 h-3 bg-primary-glow rounded-full animate-float opacity-35" style={{ animationDelay: '1.8s' }}></div>
-        
-        {/* Secondary color dots */}
-        <div className="absolute top-[35%] left-[25%] w-1 h-1 bg-secondary rounded-full animate-float opacity-50" style={{ animationDelay: '0.2s' }}></div>
-        <div className="absolute bottom-[15%] left-[30%] w-2 h-2 bg-secondary rounded-full animate-float opacity-40" style={{ animationDelay: '0.7s' }}></div>
-        <div className="absolute top-[70%] right-[20%] w-1.5 h-1.5 bg-secondary rounded-full animate-float opacity-55" style={{ animationDelay: '1.2s' }}></div>
-        
-        {/* Accent color dots */}
-        <div className="absolute top-[50%] left-[35%] w-1 h-1 bg-accent rounded-full animate-float opacity-45" style={{ animationDelay: '0.4s' }}></div>
-        <div className="absolute bottom-[35%] right-[35%] w-2 h-2 bg-accent rounded-full animate-float opacity-50" style={{ animationDelay: '0.9s' }}></div>
-        <div className="absolute top-[20%] left-[15%] w-1.5 h-1.5 bg-accent rounded-full animate-float opacity-40" style={{ animationDelay: '1.4s' }}></div>
-        <div className="absolute bottom-[60%] left-[40%] w-2.5 h-2.5 bg-accent rounded-full animate-float opacity-35" style={{ animationDelay: '1.9s' }}></div>
+      {/* Background Shape */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <img 
+          src="/lovable-uploads/b4936589-7821-4a15-a571-7ca14e16d227.png"
+          alt="Abstract organic background shape"
+          className="w-full h-full object-contain opacity-20 scale-150"
+        />
       </div>
       
       {/* Content */}
