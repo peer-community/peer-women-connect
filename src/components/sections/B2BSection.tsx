@@ -1,7 +1,9 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { useLanguage } from "@/contexts/LanguageContext";
 import b2bIcon from "@/assets/b2b-icon.png";
 
 export const B2BSection = () => {
+  const { t } = useLanguage();
 
   return (
     <section className="py-20 bg-gradient-subtle">
@@ -9,11 +11,10 @@ export const B2BSection = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
-              Corporate Wellness Solutions
+              {t('b2b.title')}
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Transform your workplace into a space where women's reproductive health is supported, 
-              understood, and celebrated. Break workplace taboos together.
+              {t('b2b.subtitle')}
             </p>
           </div>
 
@@ -29,11 +30,10 @@ export const B2BSection = () => {
                   />
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Reproductive Health Workplace Programs
+                  {t('b2b.service1.title')}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Comprehensive programs addressing menstrual health, fertility support, pregnancy 
-                  and postpartum care, and menopause - topics often ignored in traditional corporate wellness.
+                  {t('b2b.service1.description')}
                 </p>
               </div>
 
@@ -42,11 +42,10 @@ export const B2BSection = () => {
                   <span className="text-2xl">🏢</span>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Inclusive Policy Development
+                  {t('b2b.service2.title')}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Create forward-thinking policies for menstrual leave, fertility benefits, 
-                  postpartum support, and menopause accommodations that truly support women's careers.
+                  {t('b2b.service2.description')}
                 </p>
               </div>
 
@@ -55,11 +54,10 @@ export const B2BSection = () => {
                   <span className="text-2xl">📊</span>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
-                  Taboo-Breaking Education
+                  {t('b2b.service3.title')}
                 </h3>
                 <p className="text-muted-foreground leading-relaxed">
-                  Evidence-based workshops that normalize conversations around periods, fertility, 
-                  pregnancy, and menopause - creating genuinely supportive workplace cultures.
+                  {t('b2b.service3.description')}
                 </p>
               </div>
             </div>
@@ -68,7 +66,7 @@ export const B2BSection = () => {
           {/* Company Partners */}
           <div className="mb-16 animate-fade-in">
             <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
-              Trusted by Forward-Thinking Companies
+              {t('b2b.companies.title')}
             </h3>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
@@ -76,9 +74,9 @@ export const B2BSection = () => {
                   <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary-foreground">T</span>
                   </div>
-                  <CardTitle className="text-xl">TechFlow Solutions</CardTitle>
+                  <CardTitle className="text-xl">{t('b2b.company1.name')}</CardTitle>
                   <CardDescription>
-                    Implementing comprehensive women's health support programs for their 500+ female employees.
+                    {t('b2b.company1.description')}
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -88,9 +86,9 @@ export const B2BSection = () => {
                   <div className="w-16 h-16 bg-gradient-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-2xl font-bold text-accent-foreground">W</span>
                   </div>
-                  <CardTitle className="text-xl">WellCorp Industries</CardTitle>
+                  <CardTitle className="text-xl">{t('b2b.company2.name')}</CardTitle>
                   <CardDescription>
-                    Breaking workplace taboos around menstrual health and menopause with our educational workshops.
+                    {t('b2b.company2.description')}
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -100,9 +98,9 @@ export const B2BSection = () => {
                   <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
                     <span className="text-2xl font-bold text-primary-foreground">I</span>
                   </div>
-                  <CardTitle className="text-xl">Innovate Healthcare</CardTitle>
+                  <CardTitle className="text-xl">{t('b2b.company3.name')}</CardTitle>
                   <CardDescription>
-                    Creating inclusive policies and support networks for women in leadership positions.
+                    {t('b2b.company3.description')}
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -112,10 +110,10 @@ export const B2BSection = () => {
           {/* Partner With Us - Minimal Section */}
           <div className="animate-scale-in text-center max-w-2xl mx-auto border-2 border-primary/20 rounded-lg p-8 bg-card">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Partner With Us
+              {t('b2b.partner.title')}
             </h3>
             <p className="text-muted-foreground mb-6">
-              Ready to transform your workplace culture? Let's discuss how we can help.
+              {t('b2b.partner.description')}
             </p>
             <a 
               href="mailto:hello@peer.it" 

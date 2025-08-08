@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export const HeroSection = () => {
+  const { t } = useLanguage();
+  
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
       {/* Background Shape */}
@@ -16,15 +19,15 @@ export const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 text-foreground leading-tight">
-            Empowering Women Through
+            {t('hero.title')}
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              Connection & Knowledge
+              {t('hero.titleHighlight')}
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            A social platform where women connect, build communities and find the health information they need.{" "}
-            <span className="font-bold text-primary">At every stage of life.</span>
+            {t('hero.subtitle')}{" "}
+            <span className="font-bold text-primary">{t('hero.subtitleHighlight')}</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -33,14 +36,14 @@ export const HeroSection = () => {
               size="lg"
               className="text-lg px-8 py-4 h-auto"
             >
-              Join Our Community
+              {t('hero.joinCommunity')}
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               className="text-lg px-8 py-4 h-auto"
             >
-              Learn More
+              {t('hero.learnMore')}
             </Button>
           </div>
         </div>

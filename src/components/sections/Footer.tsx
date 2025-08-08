@@ -1,4 +1,8 @@
+import { useLanguage } from "@/contexts/LanguageContext";
+
 export const Footer = () => {
+  const { t } = useLanguage();
+  
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-6">
@@ -10,28 +14,27 @@ export const Footer = () => {
               <span className="text-2xl font-bold font-heading">Peer</span>
             </div>
             <p className="text-background/80 leading-relaxed">
-              Empowering women through connection, knowledge, and community support 
-              at every stage of life.
+              {t('footer.brandDescription')}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.quickLinks')}</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#mission" className="text-background/80 hover:text-background transition-colors">
-                  Our Mission
+                  {t('footer.mission')}
                 </a>
               </li>
               <li>
                 <a href="#community" className="text-background/80 hover:text-background transition-colors">
-                  Community Services
+                  {t('footer.communityServices')}
                 </a>
               </li>
               <li>
                 <a href="#b2b" className="text-background/80 hover:text-background transition-colors">
-                  B2B Services
+                  {t('footer.b2bServices')}
                 </a>
               </li>
             </ul>
@@ -39,7 +42,7 @@ export const Footer = () => {
 
           {/* Contact */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Get in Touch</h3>
+            <h3 className="text-lg font-semibold mb-4">{t('footer.getInTouch')}</h3>
             <div className="space-y-2">
               <p className="text-background/80">
                 <a href="mailto:hello@peer-health.com" className="hover:text-background transition-colors">
@@ -57,7 +60,7 @@ export const Footer = () => {
 
         <div className="border-t border-background/20 pt-8 text-center">
           <p className="text-background/60">
-            © 2024 Peer. Empowering women's health through connection and knowledge.
+            {t('footer.copyright')}
           </p>
         </div>
       </div>

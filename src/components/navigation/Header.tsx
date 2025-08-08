@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useLanguage } from "@/contexts/LanguageContext";
+import { LanguageToggle } from "./LanguageToggle";
 
 export const Header = () => {
+  const { t } = useLanguage();
+  
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
@@ -27,26 +31,29 @@ export const Header = () => {
               onClick={() => scrollToSection('mission')}
               className="text-foreground hover:text-primary transition-colors cursor-pointer"
             >
-              Mission
+              {t('nav.mission')}
             </button>
             <button 
               onClick={() => scrollToSection('community')}
               className="text-foreground hover:text-primary transition-colors cursor-pointer"
             >
-              Community
+              {t('nav.community')}
             </button>
             <button 
               onClick={() => scrollToSection('b2b')}
               className="text-foreground hover:text-primary transition-colors cursor-pointer"
             >
-              B2B Services
+              {t('nav.b2b')}
             </button>
           </div>
 
-          {/* CTA Button */}
-          <Button variant="ghost" className="hidden md:flex">
-            Contact Us
-          </Button>
+          {/* Language Toggle and CTA Button */}
+          <div className="flex items-center space-x-4">
+            <LanguageToggle />
+            <Button variant="ghost" className="hidden md:flex">
+              {t('nav.contact')}
+            </Button>
+          </div>
         </div>
       </nav>
     </header>
