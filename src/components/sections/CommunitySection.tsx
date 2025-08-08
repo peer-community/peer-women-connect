@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Users, Book, Heart } from "lucide-react";
+import { Group, MenuBook, Favorite } from "@mui/icons-material";
 
 export const CommunitySection = () => {
   const [email, setEmail] = useState("");
@@ -37,12 +37,12 @@ export const CommunitySection = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 animate-fade-in">
-            <div className="text-center">
-              <div className="flex justify-center mb-4">
-                <div className="w-16 h-16 flex items-center justify-center">
-                  <Users size={48} color="#C52344" />
-                </div>
-              </div>
+             <div className="text-center">
+               <div className="flex justify-center mb-4">
+                 <div className="w-16 h-16 flex items-center justify-center">
+                   <Group sx={{ fontSize: 48, color: "#C52344" }} />
+                 </div>
+               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
                 {t('community.safeSpaces.title')}
               </h3>
@@ -51,10 +51,10 @@ export const CommunitySection = () => {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Book size={48} color="#C52344" />
-              </div>
+             <div className="text-center">
+               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                 <MenuBook sx={{ fontSize: 48, color: "#C52344" }} />
+               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
                 {t('community.education.title')}
               </h3>
@@ -63,10 +63,10 @@ export const CommunitySection = () => {
               </p>
             </div>
 
-            <div className="text-center">
-              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Heart size={48} color="#C52344" />
-              </div>
+             <div className="text-center">
+               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                 <Favorite sx={{ fontSize: 48, color: "#C52344" }} />
+               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
                 {t('community.empowerment.title')}
               </h3>
