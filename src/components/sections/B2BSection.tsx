@@ -141,7 +141,7 @@ export const B2BSection = () => {
               </div>
             </div>
 
-            {/* Contact Form */}
+            {/* Contact Us */}
             <div className="animate-scale-in">
               <Card className="shadow-medium border-2 border-primary/20">
                 <CardHeader>
@@ -152,58 +152,22 @@ export const B2BSection = () => {
                     Ready to transform your workplace culture? Let's discuss how we can help.
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <form onSubmit={handleContactSubmit} className="space-y-4">
-                    <div>
-                      <Input
-                        type="text"
-                        name="company"
-                        placeholder="Company name"
-                        value={formData.company}
-                        onChange={handleInputChange}
-                        className="h-12 text-base border-2 focus:border-primary"
-                        required
-                      />
+                <CardContent className="text-center py-12">
+                  <div className="space-y-6">
+                    <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto flex items-center justify-center mb-6">
+                      <span className="text-3xl">✉️</span>
                     </div>
-                    <div>
-                      <Input
-                        type="email"
-                        name="email"
-                        placeholder="Work email address"
-                        value={formData.email}
-                        onChange={handleInputChange}
-                        className="h-12 text-base border-2 focus:border-primary"
-                        required
-                      />
-                    </div>
-                    <div>
-                      <Textarea
-                        name="message"
-                        placeholder="Tell us about your organization's needs..."
-                        value={formData.message}
-                        onChange={handleInputChange}
-                        className="min-h-24 text-base border-2 focus:border-primary resize-none"
-                        rows={4}
-                      />
-                    </div>
-                    <Button 
-                      type="submit" 
-                      variant="hero" 
-                      size="lg" 
-                      className="w-full text-lg h-12"
-                    >
-                      Get In Touch
-                    </Button>
-                  </form>
-                  <div className="mt-6 pt-6 border-t border-border">
-                    <p className="text-sm text-muted-foreground text-center mb-2">
-                      Prefer email? Reach us directly at:
+                    <h3 className="text-2xl font-semibold text-foreground mb-4">
+                      Contact Us
+                    </h3>
+                    <p className="text-muted-foreground mb-6 max-w-md mx-auto">
+                      Get in touch to learn how we can support your organization's women's health initiatives.
                     </p>
                     <a 
-                      href="mailto:partnerships@peer-health.com" 
-                      className="text-primary hover:text-primary-glow font-medium text-center block transition-colors"
+                      href="mailto:hello@peer.it" 
+                      className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-medium text-lg transition-colors"
                     >
-                      partnerships@peer-health.com
+                      hello@peer.it
                     </a>
                   </div>
                 </CardContent>
