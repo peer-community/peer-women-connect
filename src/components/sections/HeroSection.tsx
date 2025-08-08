@@ -30,20 +30,13 @@ export const HeroSection = () => {
             <span className="font-bold text-primary">{t('hero.subtitleHighlight')}</span>
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex justify-center items-center">
             <Button 
               variant="default" 
               size="lg"
               className="text-lg px-8 py-4 h-auto"
             >
               {t('hero.joinCommunity')}
-            </Button>
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="text-lg px-8 py-4 h-auto"
-            >
-              {t('hero.learnMore')}
             </Button>
           </div>
         </div>
