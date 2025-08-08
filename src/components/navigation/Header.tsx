@@ -1,6 +1,16 @@
 import { Button } from "@/components/ui/button";
 
 export const Header = () => {
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-6 py-4">
@@ -13,15 +23,24 @@ export const Header = () => {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#mission" className="text-foreground hover:text-primary transition-colors">
+            <button 
+              onClick={() => scrollToSection('mission')}
+              className="text-foreground hover:text-primary transition-colors cursor-pointer"
+            >
               Mission
-            </a>
-            <a href="#community" className="text-foreground hover:text-primary transition-colors">
+            </button>
+            <button 
+              onClick={() => scrollToSection('community')}
+              className="text-foreground hover:text-primary transition-colors cursor-pointer"
+            >
               Community
-            </a>
-            <a href="#b2b" className="text-foreground hover:text-primary transition-colors">
+            </button>
+            <button 
+              onClick={() => scrollToSection('b2b')}
+              className="text-foreground hover:text-primary transition-colors cursor-pointer"
+            >
               B2B Services
-            </a>
+            </button>
           </div>
 
           {/* CTA Button */}
