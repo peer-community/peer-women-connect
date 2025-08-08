@@ -5,7 +5,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Female, MenuBook, BackHand } from "@mui/icons-material";
+import { Female, MenuBook, Spa } from "@mui/icons-material";
 
 export const CommunitySection = () => {
   const [email, setEmail] = useState("");
@@ -65,7 +65,7 @@ export const CommunitySection = () => {
 
              <div className="text-center">
                <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                 <BackHand sx={{ fontSize: 48, color: "#C52344" }} />
+                 <Spa sx={{ fontSize: 48, color: "#C52344" }} />
                </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
                 {t('community.empowerment.title')}
