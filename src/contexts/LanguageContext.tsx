@@ -21,7 +21,7 @@ const translations = {
     // Hero Section
     'hero.title': 'Dare Potere alle Donne Attraverso',
     'hero.titleHighlight': 'Connessione e Conoscenza',
-    'hero.subtitle': 'Una piattaforma sociale dove le donne si connettono, creano comunità e trovano le informazioni sulla salute di cui hanno bisogno.',
+    'hero.subtitle': 'Un social dove le donne si connettono, creano comunità e traovano le informazioni sulla salute di cui hanno bisogno.',
     'hero.subtitleHighlight': 'In ogni fase della vita.',
     'hero.joinCommunity': 'Unisciti alla Nostra Community',
     'hero.learnMore': 'Scopri di Più',
