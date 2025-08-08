@@ -17,50 +17,6 @@ export const B2BSection = () => {
             </p>
           </div>
 
-          {/* Company Partners */}
-          <div className="mb-16 animate-fade-in">
-            <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
-              Trusted by Forward-Thinking Companies
-            </h3>
-            <div className="grid md:grid-cols-3 gap-8">
-              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
-                <CardHeader>
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-primary-foreground">T</span>
-                  </div>
-                  <CardTitle className="text-xl">TechFlow Solutions</CardTitle>
-                  <CardDescription>
-                    Implementing comprehensive women's health support programs for their 500+ female employees.
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-
-              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
-                <CardHeader>
-                  <div className="w-16 h-16 bg-gradient-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-accent-foreground">W</span>
-                  </div>
-                  <CardTitle className="text-xl">WellCorp Industries</CardTitle>
-                  <CardDescription>
-                    Breaking workplace taboos around menstrual health and menopause with our educational workshops.
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-
-              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
-                <CardHeader>
-                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
-                    <span className="text-2xl font-bold text-primary-foreground">I</span>
-                  </div>
-                  <CardTitle className="text-xl">Innovate Healthcare</CardTitle>
-                  <CardDescription>
-                    Creating inclusive policies and support networks for women in leadership positions.
-                  </CardDescription>
-                </CardHeader>
-              </Card>
-            </div>
-          </div>
-
           {/* Services - Horizontal Layout */}
           <div className="mb-16 animate-fade-in">
             <div className="grid md:grid-cols-3 gap-8">
@@ -106,6 +62,50 @@ export const B2BSection = () => {
                   pregnancy, and menopause - creating genuinely supportive workplace cultures.
                 </p>
               </div>
+            </div>
+          </div>
+
+          {/* Company Partners */}
+          <div className="mb-16 animate-fade-in">
+            <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
+              Trusted by Forward-Thinking Companies
+            </h3>
+            <div className="grid md:grid-cols-3 gap-8">
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-primary-foreground">T</span>
+                  </div>
+                  <CardTitle className="text-xl">TechFlow Solutions</CardTitle>
+                  <CardDescription>
+                    Implementing comprehensive women's health support programs for their 500+ female employees.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-secondary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-accent-foreground">W</span>
+                  </div>
+                  <CardTitle className="text-xl">WellCorp Industries</CardTitle>
+                  <CardDescription>
+                    Breaking workplace taboos around menstrual health and menopause with our educational workshops.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
+
+              <Card className="text-center shadow-soft hover:shadow-medium transition-all duration-300">
+                <CardHeader>
+                  <div className="w-16 h-16 bg-gradient-primary rounded-full mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl font-bold text-primary-foreground">I</span>
+                  </div>
+                  <CardTitle className="text-xl">Innovate Healthcare</CardTitle>
+                  <CardDescription>
+                    Creating inclusive policies and support networks for women in leadership positions.
+                  </CardDescription>
+                </CardHeader>
+              </Card>
             </div>
           </div>
 
