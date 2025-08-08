@@ -34,69 +34,55 @@ export const CommunitySection = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="max-w-4xl mx-auto">
             {/* Content */}
-            <div className="space-y-8 animate-fade-in">
-              <div className="flex items-start space-x-4">
+            <div className="space-y-12 animate-fade-in">
+              <div className="flex items-start space-x-6">
                 <img 
                   src={communityIcon} 
                   alt="Community connection icon representing women supporting each other"
-                  className="w-16 h-16 mt-2"
+                  className="w-20 h-20 mt-2"
                 />
                 <div>
-                  <h3 className="text-2xl font-semibold text-foreground mb-3">
+                  <h3 className="text-3xl font-semibold text-foreground mb-4">
                     Safe Spaces for Every Stage
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-lg text-muted-foreground leading-relaxed">
                     From first periods to menopause, pregnancy to postpartum - connect with women 
                     who truly understand your reproductive health journey. Share experiences in judgment-free spaces.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mt-2">
-                  <span className="text-2xl">📚</span>
+              <div className="flex items-start space-x-6">
+                <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mt-2">
+                  <span className="text-3xl">📚</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold text-foreground mb-3">
+                  <h3 className="text-3xl font-semibold text-foreground mb-4">
                     Evidence-Based Education
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-lg text-muted-foreground leading-relaxed">
                     Learn from healthcare experts about menstrual health, fertility, pregnancy, 
                     mental wellness, and reproductive rights. Knowledge that empowers real decisions.
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
-                <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mt-2">
-                  <span className="text-2xl">🌱</span>
+              <div className="flex items-start space-x-6">
+                <div className="w-20 h-20 bg-gradient-secondary rounded-full flex items-center justify-center mt-2">
+                  <span className="text-3xl">🌱</span>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-semibold text-foreground mb-3">
+                  <h3 className="text-3xl font-semibold text-foreground mb-4">
                     Empowerment & Support
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-lg text-muted-foreground leading-relaxed">
                     Build confidence in your body, your choices, and your voice. Break free from 
                     taboos and stereotypes with our inclusive wellness and empowerment programs.
                   </p>
                 </div>
               </div>
-            </div>
-
-            {/* Coming Soon */}
-            <div className="animate-scale-in">
-              <Card className="shadow-medium border-2 border-primary/20 bg-gradient-subtle">
-                <CardHeader className="text-center">
-                  <CardTitle className="text-3xl font-bold text-foreground mb-2">
-                    Work in Progress
-                  </CardTitle>
-                  <CardDescription className="text-lg text-muted-foreground">
-                    We're crafting something amazing for you. Stay tuned for updates!
-                  </CardDescription>
-                </CardHeader>
-              </Card>
             </div>
           </div>
         </div>
