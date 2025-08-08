@@ -5,7 +5,7 @@ export const CompaniesSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-16" style={{ backgroundColor: '#FFF8E4' }}>
+    <section className="py-8" style={{ backgroundColor: '#FFF8E4' }}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto animate-fade-in">
           <h3 className="text-2xl font-semibold text-center text-foreground mb-8">

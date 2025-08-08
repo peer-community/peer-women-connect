@@ -64,7 +64,7 @@ export const B2BSection = () => {
           </div>
 
           {/* Partner With Us - Minimal Section */}
-          <div className="mb-16 animate-scale-in text-center max-w-2xl mx-auto border-2 border-primary/20 rounded-lg p-8 bg-card">
+          <div className="mb-8 animate-scale-in text-center max-w-2xl mx-auto border-2 border-primary/20 rounded-lg p-8 bg-card">
             <h3 className="text-2xl font-semibold text-foreground mb-4">
               {t('b2b.partner.title')}
             </h3>
