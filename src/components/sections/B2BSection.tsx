@@ -1,7 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Building2, BarChart3 } from "lucide-react";
-import b2bIcon from "@/assets/b2b-icon.png";
+import { Heart, Building2, BarChart3 } from "lucide-react";
 
 export const B2BSection = () => {
   const { t } = useLanguage();
@@ -24,11 +23,9 @@ export const B2BSection = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="flex justify-center mb-4">
-                  <img 
-                    src={b2bIcon} 
-                    alt="B2B services icon representing corporate collaboration and growth"
-                    className="w-16 h-16"
-                  />
+                  <div className="w-16 h-16 flex items-center justify-center">
+                    <Heart size={48} color="#308CEB" />
+                  </div>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {t('b2b.service1.title')}
