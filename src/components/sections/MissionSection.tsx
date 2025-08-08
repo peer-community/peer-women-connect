@@ -24,25 +24,6 @@ export const MissionSection = () => {
                 we're here to break isolation, shatter taboos, and empower women's freedom through 
                 knowledge and genuine connection.
               </p>
-              
-              <div className="grid md:grid-cols-4 gap-4 mt-8 text-center">
-                <div className="bg-warm/50 rounded-lg p-4">
-                  <h4 className="font-bold text-primary mb-1">Pop</h4>
-                  <p className="text-sm">Current & Trendy</p>
-                </div>
-                <div className="bg-success/30 rounded-lg p-4">
-                  <h4 className="font-bold text-primary mb-1">Real</h4>
-                  <p className="text-sm">Authentic Stories</p>
-                </div>
-                <div className="bg-cream/50 rounded-lg p-4">
-                  <h4 className="font-bold text-primary mb-1">Inclusive</h4>
-                  <p className="text-sm">For Every Woman</p>
-                </div>
-                <div className="bg-accent/20 rounded-lg p-4">
-                  <h4 className="font-bold text-primary mb-1">Educational</h4>
-                  <p className="text-sm">Evidence-Based</p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
