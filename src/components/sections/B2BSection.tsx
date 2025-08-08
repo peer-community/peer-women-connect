@@ -109,37 +109,20 @@ export const B2BSection = () => {
             </div>
           </div>
 
-          {/* Partner With Us - Horizontal Section */}
-          <div className="animate-scale-in">
-            <Card className="shadow-medium border-2 border-primary/20 max-w-4xl mx-auto">
-              <CardHeader>
-                <CardTitle className="text-3xl font-bold text-foreground text-center">
-                  Partner With Us
-                </CardTitle>
-                <CardDescription className="text-lg text-muted-foreground text-center">
-                  Ready to transform your workplace culture? Let's discuss how we can help.
-                </CardDescription>
-              </CardHeader>
-              <CardContent className="text-center py-12">
-                <div className="space-y-6">
-                  <div className="w-20 h-20 bg-gradient-primary rounded-full mx-auto flex items-center justify-center mb-6">
-                    <span className="text-3xl">✉️</span>
-                  </div>
-                  <h3 className="text-2xl font-semibold text-foreground mb-4">
-                    Contact Us
-                  </h3>
-                  <p className="text-muted-foreground mb-6 max-w-md mx-auto">
-                    Get in touch to learn how we can support your organization's women's health initiatives.
-                  </p>
-                  <a 
-                    href="mailto:hello@peer.it" 
-                    className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-medium text-lg transition-colors"
-                  >
-                    hello@peer.it
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
+          {/* Partner With Us - Minimal Section */}
+          <div className="animate-scale-in text-center">
+            <h3 className="text-2xl font-semibold text-foreground mb-4">
+              Partner With Us
+            </h3>
+            <p className="text-muted-foreground mb-6 max-w-md mx-auto">
+              Ready to transform your workplace culture? Let's discuss how we can help.
+            </p>
+            <a 
+              href="mailto:hello@peer.it" 
+              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-medium transition-colors"
+            >
+              hello@peer.it
+            </a>
           </div>
         </div>
       </div>
