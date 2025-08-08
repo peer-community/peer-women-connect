@@ -34,7 +34,7 @@ export const HeroSection = () => {
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 text-foreground leading-tight">
             Empowering Women Through
-            <span className="block bg-gradient-secondary bg-clip-text text-transparent">
+            <span className="block bg-gradient-primary bg-clip-text text-transparent">
               Connection & Knowledge
             </span>
           </h1>
