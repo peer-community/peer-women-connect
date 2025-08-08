@@ -85,7 +85,7 @@ export const CommunitySection = () => {
               </div>
             </div>
 
-            {/* Newsletter Signup Card */}
+            {/* Coming Soon */}
             <div className="animate-scale-in">
               <Card className="shadow-medium border-2 border-primary/20 bg-gradient-subtle">
                 <CardHeader className="text-center">
@@ -93,34 +93,9 @@ export const CommunitySection = () => {
                     Work in Progress
                   </CardTitle>
                   <CardDescription className="text-lg text-muted-foreground">
-                    We're crafting something amazing for you. Be the first to know when we launch!
+                    We're crafting something amazing for you. Stay tuned for updates!
                   </CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <form onSubmit={handleNewsletterSignup} className="space-y-4">
-                    <div>
-                      <Input
-                        type="email"
-                        placeholder="Enter your email address"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        className="h-12 text-base border-2 focus:border-primary"
-                        required
-                      />
-                    </div>
-                    <Button 
-                      type="submit" 
-                      variant="gradient" 
-                      size="lg" 
-                      className="w-full text-lg h-12"
-                    >
-                      Join Our Newsletter
-                    </Button>
-                  </form>
-                  <p className="text-sm text-muted-foreground text-center mt-4">
-                    No spam, just empowering updates and early access to our platform.
-                  </p>
-                </CardContent>
               </Card>
             </div>
           </div>
