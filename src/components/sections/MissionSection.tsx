@@ -4,7 +4,7 @@ export const MissionSection = () => {
   const { t } = useLanguage();
   
   return (
-    <section className="py-20 bg-gradient-subtle">
+    <section className="py-20 bg-cream">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-fade-in">
