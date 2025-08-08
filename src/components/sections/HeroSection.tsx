@@ -5,10 +5,19 @@ export const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
       {/* Background Shape */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <img 
-          src="/lovable-uploads/b4936589-7821-4a15-a571-7ca14e16d227.png"
-          alt="Abstract organic background shape"
-          className="w-full h-full object-contain opacity-20 scale-150"
+        <div 
+          className="w-full h-full bg-gradient-subtle opacity-80 scale-150"
+          style={{
+            maskImage: `url('/lovable-uploads/b4936589-7821-4a15-a571-7ca14e16d227.png')`,
+            maskSize: 'contain',
+            maskRepeat: 'no-repeat',
+            maskPosition: 'center',
+            WebkitMaskImage: `url('/lovable-uploads/b4936589-7821-4a15-a571-7ca14e16d227.png')`,
+            WebkitMaskSize: 'contain',
+            WebkitMaskRepeat: 'no-repeat',
+            WebkitMaskPosition: 'center',
+            filter: 'blur(0.5px)'
+          }}
         />
       </div>
       
