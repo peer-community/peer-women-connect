@@ -10,7 +10,7 @@ export const MissionSection = () => {
             
             <div className="prose prose-lg md:prose-xl max-w-none text-foreground/80 leading-relaxed">
               <p className="mb-6">
-                PEER is a pioneering startup leveraging cutting-edge technologies and inclusive approaches 
+                PEER is a pioneering startup using inclusive approaches 
                 to provide accessible and empowering reproductive health services for every woman.
               </p>
               
