@@ -87,9 +87,9 @@ const translations = {
     
     // Mission Section
     'mission.title': 'Your Ultimate Ally in Women\'s Health',
-    'mission.intro': 'PEER is a pioneering startup using inclusive approaches to provide accessible and empowering reproductive health services for every woman.',
-    'mission.dedication': 'We\'re dedicated to catalyzing access to vital information, services, and support for both physical and mental well-being across all stages of reproductive life.',
-    'mission.scope': 'From menstruation to menopause, from conception to pregnancy and postpartum - we\'re here to break isolation, shatter taboos, and empower women\'s freedom through knowledge and genuine connection.',
+    'mission.intro': 'We support women at different stages of their lives, helping them connect, build communities, and find the information they need.',
+    'mission.dedication': 'Because knowledge and connection are the true keys to breaking isolation and empowering women\'s freedom.',
+    'mission.scope': 'We also help companies recognize the immense value of breaking taboos and stereotypes around female health, driving meaningful change and awareness.',
     
     // Community Section
     'community.title': 'Reproductive Health Community',
