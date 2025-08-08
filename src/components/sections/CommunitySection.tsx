@@ -4,7 +4,7 @@ import { Input } from "@/components/ui/input";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Footprints, Book } from "lucide-react";
+import { User, Book } from "lucide-react";
 
 export const CommunitySection = () => {
   const [email, setEmail] = useState("");
@@ -39,7 +39,7 @@ export const CommunitySection = () => {
             <div className="text-center">
               <div className="flex justify-center mb-4">
                 <div className="w-16 h-16 flex items-center justify-center">
-                  <Footprints size={48} color="#C52344" />
+                  <User size={48} color="#C52344" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-foreground mb-3">
