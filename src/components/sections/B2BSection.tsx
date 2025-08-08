@@ -63,8 +63,24 @@ export const B2BSection = () => {
             </div>
           </div>
 
+          {/* Partner With Us - Minimal Section */}
+          <div className="mb-16 animate-scale-in text-center max-w-2xl mx-auto border-2 border-primary/20 rounded-lg p-8 bg-card">
+            <h3 className="text-2xl font-semibold text-foreground mb-4">
+              {t('b2b.partner.title')}
+            </h3>
+            <p className="text-muted-foreground mb-6">
+              {t('b2b.partner.description')}
+            </p>
+            <a 
+              href="mailto:hello@peer.it" 
+              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-medium transition-colors"
+            >
+              hello@peer.it
+            </a>
+          </div>
+
           {/* Company Partners */}
-          <div className="mb-16 animate-fade-in">
+          <div className="animate-fade-in">
             <h3 className="text-2xl font-semibold text-center text-foreground mb-8">
               {t('b2b.companies.title')}
             </h3>
@@ -105,22 +121,6 @@ export const B2BSection = () => {
                 </CardHeader>
               </Card>
             </div>
-          </div>
-
-          {/* Partner With Us - Minimal Section */}
-          <div className="animate-scale-in text-center max-w-2xl mx-auto border-2 border-primary/20 rounded-lg p-8 bg-card">
-            <h3 className="text-2xl font-semibold text-foreground mb-4">
-              {t('b2b.partner.title')}
-            </h3>
-            <p className="text-muted-foreground mb-6">
-              {t('b2b.partner.description')}
-            </p>
-            <a 
-              href="mailto:hello@peer.it" 
-              className="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-lg font-medium transition-colors"
-            >
-              hello@peer.it
-            </a>
           </div>
         </div>
       </div>
