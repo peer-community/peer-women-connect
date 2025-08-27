@@ -26,19 +26,8 @@ export const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            {t('hero.subtitle')}{" "}
-            <span className="font-bold text-primary">{t('hero.subtitleHighlight')}</span>
+            {t('hero.subtitle')}
           </p>
-          
-          <div className="flex justify-center items-center">
-            <Button 
-              variant="default" 
-              size="lg"
-              className="text-lg px-8 py-4 h-auto"
-            >
-              {t('hero.joinCommunity')}
-            </Button>
-          </div>
         </div>
       </div>
     </section>

@@ -78,10 +78,10 @@ const translations = {
     'nav.contact': 'Contact Us',
     
     // Hero Section
-    'hero.title': 'Empowering Women Through',
-    'hero.titleHighlight': 'Connection & Knowledge',
-    'hero.subtitle': 'A social platform where women connect, build communities and find the health information they need.',
-    'hero.subtitleHighlight': 'At every stage of life.',
+    'hero.title': 'The first digital community dedicated to',
+    'hero.titleHighlight': 'reproductive health and well-being',
+    'hero.subtitle': 'We create authentic connections, provide reliable, science-based information, and collaborate with experts and companies to break taboos.',
+    'hero.subtitleHighlight': '',
     'hero.joinCommunity': 'Join Our Community',
     'hero.learnMore': 'Learn More',
     
