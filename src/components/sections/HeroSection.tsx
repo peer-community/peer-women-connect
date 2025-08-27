@@ -11,7 +11,7 @@ export const HeroSection = () => {
         <img 
           src="/lovable-uploads/3eac224e-49dc-416c-859e-b28745baa603.png"
           alt="Hero background"
-          className="w-full h-full object-cover opacity-30"
+          className="w-full h-full object-cover"
         />
       </div>
       
