@@ -12,7 +12,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
-              <span className="text-2xl font-bold font-heading">Peer</span>
+              <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
             </div>
             <p className="text-background/80 leading-relaxed">
               {t('footer.brandDescription')}
