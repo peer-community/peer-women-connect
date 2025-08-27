@@ -118,12 +118,12 @@ const translations = {
     'mission.ecosystem.description': 'a network of certified experts and tailored services for companies.',
     
     // Community Section
-    'community.title': 'Looking for information or someone to talk to?',
+    'community.title': 'Looking for information or someone to connect with?',
     'community.subtitle': 'With Peer you can:',
-    'community.point1': 'Meet people who share your experiences.',
-    'community.point2': 'Access quality content and courses.',
+    'community.point1': 'Meet others who share your experiences.',
+    'community.point2': 'Access high-quality courses and content.',
     'community.point3': 'Feel part of an inclusive community.',
-    'community.joinWaitlist': 'Join the waitlist',
+    'community.joinWaitlist': 'Join Waitlist',
     
     // B2B Section
     'b2b.title': 'Corporate Wellness Solutions',
