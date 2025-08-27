@@ -97,13 +97,13 @@ const translations = {
     
     // Context Section
     'context.title': 'What\'s happening?',
-    'context.subtitle': 'In Italy, millions of people face menstruation, motherhood and menopause without adequate support.',
+    'context.subtitle': 'In Italy, millions of people face menstruation, motherhood, and menopause without adequate support.',
     'context.loneliness.title': 'Loneliness',
-    'context.loneliness.description': 'safe spaces and authentic connections are missing.',
+    'context.loneliness.description': 'lack of safe spaces and authentic connections.',
     'context.unreliable.title': 'Unreliable information',
-    'context.unreliable.description': 'often extreme positions or one-sided narratives that don\'t support free choice.',
+    'context.unreliable.description': 'often extreme sources or one-sided narratives that don\'t support free choice.',
     'context.career.title': 'Career impact',
-    'context.career.description': '50% of mothers leave work within a year of giving birth; many women in managerial roles experience perimenopause without support.',
+    'context.career.description': '50% of mothers leave their jobs within a year of childbirth; many women in managerial roles experience perimenopause without support.',
     
     // Mission Section
     'mission.title': 'Your Ultimate Ally in Women\'s Health',
