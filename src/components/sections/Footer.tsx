@@ -11,7 +11,7 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-primary rounded-full"></div>
+              <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
               <span className="text-2xl font-bold font-heading">Peer</span>
             </div>
             <p className="text-background/80 leading-relaxed">
