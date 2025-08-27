@@ -65,7 +65,7 @@ const translations = {
     'b2b.partner.description': 'Pronta a trasformare la cultura del tuo posto di lavoro? Discutiamo di come possiamo aiutarti.',
     
     // Footer
-    'footer.brandDescription': 'Dare potere alle donne attraverso connessione, conoscenza e supporto della community in ogni fase della vita.',
+    'footer.brandDescription': 'Peer nasce per rivoluzionare il modo in cui viviamo e raccontiamo la salute riproduttiva. Connettiti, impara, condividi. È solo l\'inizio.',
     'footer.quickLinks': 'Link Rapidi',
     'footer.mission': 'La Nostra Missione',
     'footer.communityServices': 'Servizi Community',
