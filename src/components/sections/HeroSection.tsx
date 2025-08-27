@@ -26,7 +26,6 @@ export const HeroSection = () => {
                 <span className="bg-gradient-primary bg-clip-text text-transparent">reproductive health</span>
                 <span className="text-foreground"> and </span>
                 <span className="bg-gradient-primary bg-clip-text text-transparent">well-being</span>
-                <span className="text-foreground">.</span>
               </>
             ) : (
               // Italian version
