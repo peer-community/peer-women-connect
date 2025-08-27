@@ -93,8 +93,9 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				'heading': ['Inter', 'system-ui', 'sans-serif'],
-				'body': ['Inter', 'system-ui', 'sans-serif']
+				'heading': ['Manrope', 'system-ui', 'sans-serif'],
+				'body': ['Manrope', 'system-ui', 'sans-serif'],
+				'sans': ['Manrope', 'system-ui', 'sans-serif']
 			},
 			transitionTimingFunction: {
 				'smooth': 'var(--transition-smooth)'
