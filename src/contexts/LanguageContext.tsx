@@ -26,6 +26,16 @@ const translations = {
     'hero.joinCommunity': 'Unisciti alla Nostra Community',
     'hero.learnMore': 'Scopri di Più',
     
+    // Context Section
+    'context.title': 'Cosa succede?',
+    'context.subtitle': 'In Italia milioni di persone affrontano mestruazioni, maternità e menopausa senza adeguato supporto.',
+    'context.loneliness.title': 'Solitudine',
+    'context.loneliness.description': 'mancano spazi sicuri e connessioni autentiche.',
+    'context.unreliable.title': 'Informazioni poco affidabili',
+    'context.unreliable.description': 'spesso posizioni estreme o narrazioni a senso unico, che non supportano la libera scelta.',
+    'context.career.title': 'Impatto sulla carriera',
+    'context.career.description': 'il 50% delle madri lascia il lavoro entro un anno dal parto; molte donne in ruoli manageriali vivono la perimenopausa senza supporto.',
+    
     // Mission Section
     'mission.title': 'La Tua Alleata Definitiva nella Salute Femminile',
     'mission.intro': 'Sosteniamo il benessere e la salute delle donne, nelle diverse fasi della loro vita, aiutandole a incontrarsi, creare comunità e trovare le informazioni di cui hanno bisogno.',
@@ -84,6 +94,16 @@ const translations = {
     'hero.subtitleHighlight': '',
     'hero.joinCommunity': 'Join Our Community',
     'hero.learnMore': 'Learn More',
+    
+    // Context Section
+    'context.title': 'What\'s happening?',
+    'context.subtitle': 'In Italy, millions of people face menstruation, motherhood and menopause without adequate support.',
+    'context.loneliness.title': 'Loneliness',
+    'context.loneliness.description': 'safe spaces and authentic connections are missing.',
+    'context.unreliable.title': 'Unreliable information',
+    'context.unreliable.description': 'often extreme positions or one-sided narratives that don\'t support free choice.',
+    'context.career.title': 'Career impact',
+    'context.career.description': '50% of mothers leave work within a year of giving birth; many women in managerial roles experience perimenopause without support.',
     
     // Mission Section
     'mission.title': 'Your Ultimate Ally in Women\'s Health',
