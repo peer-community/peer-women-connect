@@ -9,9 +9,9 @@ export const HeroSection = () => {
       {/* Background Shape */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img 
-          src="/lovable-uploads/b4936589-7821-4a15-a571-7ca14e16d227.png"
-          alt="Abstract organic background shape"
-          className="w-full h-full object-contain opacity-20 scale-150"
+          src="/lovable-uploads/3eac224e-49dc-416c-859e-b28745baa603.png"
+          alt="Hero background"
+          className="w-full h-full object-cover opacity-30"
         />
       </div>
       
