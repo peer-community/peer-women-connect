@@ -62,7 +62,6 @@ const translations = {
     'b2b.point3': 'Workshop per abbattere i tabù.',
     'b2b.point4': 'Accesso a una community attiva e consapevole.',
     'b2b.partner.title': 'Collabora con Peer',
-    'b2b.partner.description': 'Pronta a trasformare la cultura del tuo posto di lavoro? Discutiamo di come possiamo aiutarti.',
     
     // Footer
     'footer.brandDescription': 'Peer nasce per rivoluzionare il modo in cui viviamo e raccontiamo la salute riproduttiva. Connettiti, impara, condividi. È solo l\'inizio.',
@@ -125,7 +124,6 @@ const translations = {
     'b2b.point3': 'Workshops to break taboos.',
     'b2b.point4': 'Access to an active and engaged community.',
     'b2b.partner.title': 'Partner With Us',
-    'b2b.partner.description': 'Ready to transform your workplace culture? Let\'s discuss how we can help.',
     
     // Footer
     'footer.brandDescription': 'Peer was created to revolutionize the way we experience and talk about reproductive health. Connect, learn, share. This is just the beginning.',

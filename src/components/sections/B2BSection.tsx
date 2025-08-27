@@ -57,19 +57,13 @@ export const B2BSection = () => {
             </div>
           </div>
 
-          {/* Partner With Us Section */}
-          <div className="text-center max-w-3xl mx-auto bg-gradient-subtle p-10 rounded-3xl border border-border/50 shadow-soft">
-            <h3 className="text-3xl font-bold text-foreground mb-4">
-              {t('b2b.partner.title')}
-            </h3>
-            <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              {t('b2b.partner.description')}
-            </p>
+          {/* Partner CTA Button */}
+          <div className="text-center">
             <a 
               href="mailto:hello@peer.it" 
-              className="inline-flex items-center justify-center px-10 py-4 bg-primary text-primary-foreground hover:bg-primary/90 rounded-full font-semibold transition-all duration-300 shadow-medium hover:shadow-strong text-lg"
+              className="inline-flex items-center justify-center px-12 py-6 bg-primary text-primary-foreground hover:bg-primary/90 rounded-full font-semibold transition-all duration-300 shadow-medium hover:shadow-strong text-lg"
             >
-              hello@peer.it
+              {t('b2b.partner.title')}
             </a>
           </div>
 
