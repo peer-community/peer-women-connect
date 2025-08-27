@@ -1,4 +1,5 @@
 import { useLanguage } from "@/contexts/LanguageContext";
+import { Instagram, Linkedin } from "lucide-react";
 
 export const Footer = () => {
   const { t } = useLanguage();
@@ -43,12 +44,36 @@ export const Footer = () => {
           {/* Contact */}
           <div>
             <h3 className="text-lg font-semibold mb-4">{t('footer.getInTouch')}</h3>
-            <div className="space-y-2">
+            <div className="space-y-4">
               <p className="text-background/80">
                 <a href="mailto:hello@peer.it" className="hover:text-background transition-colors">
                   hello@peer.it
                 </a>
               </p>
+              
+              <div>
+                <h4 className="text-md font-medium mb-2">{t('footer.followUs')}</h4>
+                <div className="flex space-x-4">
+                  <a
+                    href="https://www.instagram.com/peer_community/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-background/80 hover:text-background transition-colors"
+                    aria-label="Instagram"
+                  >
+                    <Instagram size={24} />
+                  </a>
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-background/80 hover:text-background transition-colors"
+                    aria-label="LinkedIn"
+                  >
+                    <Linkedin size={24} />
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
