@@ -47,14 +47,12 @@ const translations = {
     'mission.ecosystem.description': 'rete di esperti certificati e servizi per aziende.',
     
     // Community Section
-    'community.title': 'Community di Salute Riproduttiva',
-    'community.subtitle': 'Connettiti con donne che capiscono il tuo viaggio. Accedi a corsi guidati da esperti e comunità di supporto per ogni fase della vita riproduttiva.',
-    'community.safeSpaces.title': 'Spazi Sicuri per Ogni Fase',
-    'community.safeSpaces.description': 'Dalle prime mestruazioni alla menopausa, dalla gravidanza al post-parto - connettiti con donne che comprendono veramente il tuo viaggio di salute riproduttiva. Condividi esperienze in spazi liberi da giudizi.',
-    'community.education.title': 'Educazione Basata su Evidenze',
-    'community.education.description': 'Impara da esperti sanitari sulla salute mestruale, fertilità, gravidanza, benessere mentale e diritti riproduttivi. Conoscenza che alimenta decisioni reali.',
-    'community.empowerment.title': 'Empowerment e Supporto',
-    'community.empowerment.description': 'Costruisci fiducia nel tuo corpo, nelle tue scelte e nella tua voce. Liberati da tabù e stereotipi con i nostri programmi inclusivi di benessere e empowerment.',
+    'community.title': 'Stai cercando informazioni o qualcuno con cui confrontarti?',
+    'community.subtitle': 'Con Peer puoi:',
+    'community.point1': 'Incontrare chi vive le tue stesse esperienze.',
+    'community.point2': 'Accedere a contenuti e corsi di qualità.',
+    'community.point3': 'Sentirti parte di una community inclusiva.',
+    'community.joinWaitlist': 'Joina la waitlist',
     
     // B2B Section
     'b2b.title': 'Soluzioni di Benessere Aziendale',
@@ -120,14 +118,12 @@ const translations = {
     'mission.ecosystem.description': 'a network of certified experts and tailored services for companies.',
     
     // Community Section
-    'community.title': 'Reproductive Health Community',
-    'community.subtitle': 'Connect with women who understand your journey. Access expert-led courses and supportive communities for every stage of reproductive life.',
-    'community.safeSpaces.title': 'Safe Spaces for Every Stage',
-    'community.safeSpaces.description': 'From first periods to menopause, pregnancy to postpartum - connect with women who truly understand your reproductive health journey. Share experiences in judgment-free spaces.',
-    'community.education.title': 'Evidence-Based Education',
-    'community.education.description': 'Learn from healthcare experts about menstrual health, fertility, pregnancy, mental wellness, and reproductive rights. Knowledge that empowers real decisions.',
-    'community.empowerment.title': 'Empowerment & Support',
-    'community.empowerment.description': 'Build confidence in your body, your choices, and your voice. Break free from taboos and stereotypes with our inclusive wellness and empowerment programs.',
+    'community.title': 'Looking for information or someone to talk to?',
+    'community.subtitle': 'With Peer you can:',
+    'community.point1': 'Meet people who share your experiences.',
+    'community.point2': 'Access quality content and courses.',
+    'community.point3': 'Feel part of an inclusive community.',
+    'community.joinWaitlist': 'Join the waitlist',
     
     // B2B Section
     'b2b.title': 'Corporate Wellness Solutions',
