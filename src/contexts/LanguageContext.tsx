@@ -37,10 +37,14 @@ const translations = {
     'context.career.description': 'il 50% delle madri lascia il lavoro entro un anno dal parto; molte donne in ruoli manageriali vivono la perimenopausa senza supporto.',
     
     // Mission Section
-    'mission.title': 'La Tua Alleata Definitiva nella Salute Femminile',
-    'mission.intro': 'Sosteniamo il benessere e la salute delle donne, nelle diverse fasi della loro vita, aiutandole a incontrarsi, creare comunità e trovare le informazioni di cui hanno bisogno.',
-    'mission.dedication': 'Perché conoscenza e condivisione sono le uniche chiavi per combattere isolamento, solitudine e sostenere la libera scelta.',
-    'mission.scope': 'Aiutiamo le aziende a comprendere ad abbattere tabù e stereotipi sulla salute femminile, promuovendo un cambiamento positivo e consapevole.',
+    'mission.title': 'La mission di Peer',
+    'mission.subtitle': 'Peer è la prima piattaforma digitale che accompagna le persone in tutte le fasi della salute riproduttiva, con un approccio unico:',
+    'mission.community.title': 'Community',
+    'mission.community.description': 'matching e forum per combattere solitudine e isolamento.',
+    'mission.knowledge.title': 'Conoscenza',
+    'mission.knowledge.description': 'corsi e risorse digitali su ciclo mestruale, maternità menopausa, sessualità.',
+    'mission.ecosystem.title': 'Ecosistema',
+    'mission.ecosystem.description': 'rete di esperti certificati e servizi per aziende.',
     
     // Community Section
     'community.title': 'Community di Salute Riproduttiva',
@@ -106,10 +110,14 @@ const translations = {
     'context.career.description': '50% of mothers leave their jobs within a year of childbirth; many women in managerial roles experience perimenopause without support.',
     
     // Mission Section
-    'mission.title': 'Your Ultimate Ally in Women\'s Health',
-    'mission.intro': 'We support women at different stages of their lives, helping them connect, build communities, and find the information they need.',
-    'mission.dedication': 'Because knowledge and connection are the true keys to breaking isolation and empowering women\'s freedom.',
-    'mission.scope': 'We also help companies recognize the immense value of breaking taboos and stereotypes around female health, driving meaningful change and awareness.',
+    'mission.title': 'Peer\'s Mission',
+    'mission.subtitle': 'Peer is the first digital platform that accompanies people through all stages of reproductive health, with a unique approach:',
+    'mission.community.title': 'Community',
+    'mission.community.description': 'matching and forums to combat loneliness and isolation.',
+    'mission.knowledge.title': 'Knowledge',
+    'mission.knowledge.description': 'courses and digital resources on menstrual cycle, motherhood, menopause, sexuality.',
+    'mission.ecosystem.title': 'Ecosystem',
+    'mission.ecosystem.description': 'network of certified experts and services for companies.',
     
     // Community Section
     'community.title': 'Reproductive Health Community',
