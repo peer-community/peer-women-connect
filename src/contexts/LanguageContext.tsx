@@ -56,12 +56,12 @@ const translations = {
     
     // B2B Section
     'b2b.title': 'Sei un\'azienda?',
-    'b2b.subtitle': 'Peer aiuta le aziende a supportare la salute riproduttiva e creare luoghi di lavoro inclusivi con:',
+    'b2b.subtitle': 'Peer aiuta le aziende a supportare la salute femminile e a creare un ambiente inclusivo con:',
     'b2b.point1': 'Programmi di formazione.',
     'b2b.point2': 'Politiche innovative (menopausa, fertilità, congedo mestruale).',
     'b2b.point3': 'Workshop per abbattere i tabù.',
-    'b2b.point4': 'Accesso a una community attiva e coinvolta.',
-    'b2b.partner.title': 'Collabora con Noi',
+    'b2b.point4': 'Accesso a una community attiva e consapevole.',
+    'b2b.partner.title': 'Collabora con Peer',
     'b2b.partner.description': 'Pronta a trasformare la cultura del tuo posto di lavoro? Discutiamo di come possiamo aiutarti.',
     
     // Footer
