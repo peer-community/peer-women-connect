@@ -52,7 +52,7 @@ const translations = {
     'community.point1': 'Incontrare chi vive le tue stesse esperienze.',
     'community.point2': 'Accedere a contenuti e corsi di qualità.',
     'community.point3': 'Sentirti parte di una community inclusiva.',
-    'community.joinWaitlist': 'Joina la waitlist',
+    'community.joinWaitlist': 'Unisciti alla lista d\'attesa',
     
     // B2B Section
     'b2b.title': 'Sei un\'azienda?',
