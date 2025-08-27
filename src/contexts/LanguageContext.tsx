@@ -111,13 +111,13 @@ const translations = {
     
     // Mission Section
     'mission.title': 'Peer\'s Mission',
-    'mission.subtitle': 'Peer is the first digital platform that accompanies people through all stages of reproductive health, with a unique approach:',
+    'mission.subtitle': 'Peer is the first digital platform that supports people through every stage of reproductive health, with a unique approach:',
     'mission.community.title': 'Community',
-    'mission.community.description': 'matching and forums to combat loneliness and isolation.',
+    'mission.community.description': 'matching and forums to fight loneliness and isolation.',
     'mission.knowledge.title': 'Knowledge',
-    'mission.knowledge.description': 'courses and digital resources on menstrual cycle, motherhood, menopause, sexuality.',
+    'mission.knowledge.description': 'digital courses and resources on menstruation, motherhood, menopause, and sexuality.',
     'mission.ecosystem.title': 'Ecosystem',
-    'mission.ecosystem.description': 'network of certified experts and services for companies.',
+    'mission.ecosystem.description': 'a network of certified experts and tailored services for companies.',
     
     // Community Section
     'community.title': 'Reproductive Health Community',
