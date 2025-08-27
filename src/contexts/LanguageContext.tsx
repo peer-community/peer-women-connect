@@ -127,7 +127,7 @@ const translations = {
     'b2b.partner.description': 'Ready to transform your workplace culture? Let\'s discuss how we can help.',
     
     // Footer
-    'footer.brandDescription': 'Empowering women through connection, knowledge, and community support at every stage of life.',
+    'footer.brandDescription': 'Peer was created to revolutionize the way we experience and talk about reproductive health. Connect, learn, share. This is just the beginning.',
     'footer.quickLinks': 'Quick Links',
     'footer.mission': 'Our Mission',
     'footer.communityServices': 'Community Services',
