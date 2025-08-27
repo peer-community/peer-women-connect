@@ -19,10 +19,10 @@ const translations = {
     'nav.contact': 'Contattaci',
     
     // Hero Section
-    'hero.title': 'Dare Potere alle Donne Attraverso',
-    'hero.titleHighlight': 'Connessione e Conoscenza',
-    'hero.subtitle': 'Una social platform dove le donne si connettono, creano comunità e trovano le informazioni sulla salute di cui hanno bisogno.',
-    'hero.subtitleHighlight': 'In ogni fase della vita.',
+    'hero.title': 'La prima community digitale dedicata alla',
+    'hero.titleHighlight': 'salute e al benessere femminile',
+    'hero.subtitle': 'Creiamo connessioni autentiche, offriamo informazione scientifica e affidabile, collaboriamo con esperti e aziende per abbattere i tabù.',
+    'hero.subtitleHighlight': '',
     'hero.joinCommunity': 'Unisciti alla Nostra Community',
     'hero.learnMore': 'Scopri di Più',
     
