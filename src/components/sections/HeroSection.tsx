@@ -18,10 +18,12 @@ export const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 text-foreground leading-tight">
-            {t('hero.title')}
+          <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 leading-tight">
+            <span className="text-foreground">La prima community digitale dedicata alla </span>
+            <span className="bg-gradient-primary bg-clip-text text-transparent">salute</span>
+            <span className="text-foreground"> e al</span>
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              {t('hero.titleHighlight')}
+              benessere femminile
             </span>
           </h1>
           
