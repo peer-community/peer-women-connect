@@ -19,12 +19,26 @@ export const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold font-heading mb-6 leading-tight">
-            <span className="text-foreground">La prima community digitale dedicata alla </span>
-            <span className="bg-gradient-primary bg-clip-text text-transparent">salute</span>
-            <span className="text-foreground"> e al</span>
-            <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              benessere femminile
-            </span>
+            {t('nav.mission') === 'Mission' ? (
+              // English version
+              <>
+                <span className="text-foreground">The first digital community dedicated to </span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">reproductive health</span>
+                <span className="text-foreground"> and </span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">well-being</span>
+                <span className="text-foreground">.</span>
+              </>
+            ) : (
+              // Italian version
+              <>
+                <span className="text-foreground">La prima community digitale dedicata alla </span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">salute</span>
+                <span className="text-foreground"> e al</span>
+                <span className="block bg-gradient-primary bg-clip-text text-transparent">
+                  benessere femminile
+                </span>
+              </>
+            )}
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
