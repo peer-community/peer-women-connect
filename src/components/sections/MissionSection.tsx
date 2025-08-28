@@ -17,10 +17,7 @@ export const MissionSection = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <div className="text-center p-8 rounded-2xl bg-background border border-border hover:shadow-lg transition-all duration-300">
-            <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <Groups sx={{ fontSize: 48, color: "#C52344" }} />
-            </div>
+          <div className="text-center p-8">
             <h3 className="text-xl font-semibold text-foreground mb-4">
               {t('mission.community.title')}
             </h3>
@@ -29,10 +26,7 @@ export const MissionSection = () => {
             </p>
           </div>
 
-          <div className="text-center p-8 rounded-2xl bg-background border border-border hover:shadow-lg transition-all duration-300">
-            <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <School sx={{ fontSize: 48, color: "#C52344" }} />
-            </div>
+          <div className="text-center p-8">
             <h3 className="text-xl font-semibold text-foreground mb-4">
               {t('mission.knowledge.title')}
             </h3>
@@ -41,10 +35,7 @@ export const MissionSection = () => {
             </p>
           </div>
 
-          <div className="text-center p-8 rounded-2xl bg-background border border-border hover:shadow-lg transition-all duration-300">
-            <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6">
-              <Business sx={{ fontSize: 48, color: "#C52344" }} />
-            </div>
+          <div className="text-center p-8">
             <h3 className="text-xl font-semibold text-foreground mb-4">
               {t('mission.ecosystem.title')}
             </h3>
