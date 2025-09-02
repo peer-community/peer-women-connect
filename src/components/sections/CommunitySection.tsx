@@ -28,7 +28,7 @@ export const CommunitySection = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="text-center p-8">
+            <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Users className="w-8 h-8 text-white" />
               </div>
@@ -37,7 +37,7 @@ export const CommunitySection = () => {
               </p>
             </div>
             
-            <div className="text-center p-8">
+            <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
@@ -46,7 +46,7 @@ export const CommunitySection = () => {
               </p>
             </div>
             
-            <div className="text-center p-8">
+            <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Heart className="w-8 h-8 text-white" />
               </div>
