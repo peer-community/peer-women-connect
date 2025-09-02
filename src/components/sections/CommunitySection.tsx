@@ -7,7 +7,7 @@ export const CommunitySection = () => {
   const { t } = useLanguage();
 
   const handleJoinWaitlist = () => {
-    const email = "hello@peer.it";
+    const email = "hello@peer-community.com";
     const subject = encodeURIComponent("Joina la waitlist");
     const body = encodeURIComponent("Ciao! Vorrei unirmi alla waitlist di Peer.");
     window.location.href = `mailto:${email}?subject=${subject}&body=${body}`;

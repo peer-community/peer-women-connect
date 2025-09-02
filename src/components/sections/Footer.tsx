@@ -46,8 +46,8 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">{t('footer.getInTouch')}</h3>
             <div className="space-y-4">
               <p className="text-background/80">
-                <a href="mailto:hello@peer.it" className="hover:text-background transition-colors">
-                  hello@peer.it
+                <a href="mailto:hello@peer-community.com" className="hover:text-background transition-colors">
+                  hello@peer-community.com
                 </a>
               </p>
               

@@ -60,7 +60,7 @@ export const B2BSection = () => {
           {/* Partner CTA Button */}
           <div className="text-center">
             <a 
-              href="mailto:hello@peer.it" 
+              href="mailto:hello@peer-community.com" 
               className="inline-flex items-center justify-center px-12 py-6 bg-primary text-primary-foreground hover:bg-primary/90 rounded-full font-semibold transition-all duration-300 shadow-medium hover:shadow-strong text-lg"
             >
               {t('b2b.partner.title')}
