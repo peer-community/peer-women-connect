@@ -23,7 +23,7 @@ export const MissionSection = () => {
               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">
                 {t('mission.community.title')}
               </h3>
               <p className="text-gray-600 leading-relaxed text-base first-letter:uppercase">
@@ -37,7 +37,7 @@ export const MissionSection = () => {
               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">
                 {t('mission.knowledge.title')}
               </h3>
               <p className="text-gray-600 leading-relaxed text-base first-letter:uppercase">
@@ -51,7 +51,7 @@ export const MissionSection = () => {
               <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Globe className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-xl font-bold text-gray-800 mb-3">
+              <h3 className="text-2xl font-bold text-gray-800 mb-3">
                 {t('mission.ecosystem.title')}
               </h3>
               <p className="text-gray-600 leading-relaxed text-base first-letter:uppercase">
