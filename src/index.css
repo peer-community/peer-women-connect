@@ -36,6 +36,12 @@
     
     --cream: 40 100% 85%; /* #FFE8B6 */
     --cream-foreground: 40 60% 25%;
+    
+    --brand-warm: 45 100% 94%; /* #FFF8E4 */
+    --brand-cream: 40 100% 85%; /* #FFE8B6 */
+    --brand-gold: 51 79% 45%; /* #CFB921 */
+    --brand-coral: 19 79% 73%; /* #FF8574 */
+    --brand-mint: 120 60% 85%; /* #CBE6C9 */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;

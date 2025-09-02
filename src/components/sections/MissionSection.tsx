@@ -6,7 +6,7 @@ export const MissionSection = () => {
   const { t } = useLanguage();
   
   return (
-    <section className="py-20 bg-cream">
+    <section className="py-20" style={{backgroundColor: '#FFE8B6'}}>
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
