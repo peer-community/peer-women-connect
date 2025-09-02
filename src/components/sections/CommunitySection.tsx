@@ -67,8 +67,8 @@ export const CommunitySection = () => {
             <Button 
               onClick={handleJoinWaitlist}
               variant="default" 
-              size="lg"
-              className="text-lg px-12 py-6 h-auto rounded-full shadow-medium hover:shadow-strong transition-all duration-300 bg-primary hover:bg-primary/90"
+              size="default"
+              className="text-base px-8 py-3 h-auto rounded-full shadow-medium hover:shadow-strong transition-all duration-300 bg-primary hover:bg-primary/90"
             >
               {t('community.joinWaitlist')}
             </Button>
