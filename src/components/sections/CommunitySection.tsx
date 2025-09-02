@@ -17,7 +17,7 @@ export const CommunitySection = () => {
     <section className="py-20" style={{backgroundColor: '#FFF8E4'}}>
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
-          <div className="animate-fade-in text-center mb-16">
+          <div className="animate-fade-in text-center">
             <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
               {t('community.title')}
             </h2>
