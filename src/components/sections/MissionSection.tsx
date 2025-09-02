@@ -20,8 +20,8 @@ export const MissionSection = () => {
         <div className="grid md:grid-cols-3 gap-12 max-w-6xl mx-auto">
           <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm rounded-3xl" style={{borderBottomLeftRadius: '16px'}}>
             <CardContent className="text-center py-10 px-6">
-              <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Users className="w-6 h-6 text-white" />
+              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <Users className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-800 mb-3">
                 {t('mission.community.title')}
@@ -34,8 +34,8 @@ export const MissionSection = () => {
 
           <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm rounded-3xl" style={{borderBottomLeftRadius: '16px'}}>
             <CardContent className="text-center py-10 px-6">
-              <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <BookOpen className="w-6 h-6 text-white" />
+              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <BookOpen className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-800 mb-3">
                 {t('mission.knowledge.title')}
@@ -48,8 +48,8 @@ export const MissionSection = () => {
 
           <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm rounded-3xl" style={{borderBottomLeftRadius: '16px'}}>
             <CardContent className="text-center py-10 px-6">
-              <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Globe className="w-6 h-6 text-white" />
+              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4 rounded-xl" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <Globe className="w-8 h-8 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-800 mb-3">
                 {t('mission.ecosystem.title')}
