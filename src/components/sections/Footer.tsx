@@ -1,5 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Instagram, Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const { t } = useLanguage();
@@ -37,6 +38,11 @@ export const Footer = () => {
                 <a href="#b2b" className="text-background/80 hover:text-background transition-colors">
                   {t('footer.b2bServices')}
                 </a>
+              </li>
+              <li>
+                <Link to="/privacy" className="text-background/80 hover:text-background transition-colors">
+                  {t('footer.privacy')}
+                </Link>
               </li>
             </ul>
           </div>
