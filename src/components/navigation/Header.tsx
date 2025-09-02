@@ -1,10 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageToggle } from "./LanguageToggle";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export const Header = () => {
   const { t } = useLanguage();
+  const location = useLocation();
   
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -16,15 +17,35 @@ export const Header = () => {
     }
   };
 
+  const handleLogoClick = () => {
+    if (location.pathname === "/") {
+      // If on homepage, scroll to top
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-            <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
-            <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
-          </Link>
+          {location.pathname === "/" ? (
+            <button 
+              onClick={handleLogoClick}
+              className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+            >
+              <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
+              <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
+            </button>
+          ) : (
+            <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
+              <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
+              <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
+            </Link>
+          )}
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
