@@ -6,7 +6,7 @@ export const B2BSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20 bg-background">
+    <section className="py-20" style={{backgroundColor: '#FFE8B6'}}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
@@ -20,38 +20,38 @@ export const B2BSection = () => {
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-            <div className="bg-card/80 backdrop-blur-sm p-6 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <GraduationCap className="w-7 h-7 text-primary" />
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <GraduationCap className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-foreground leading-relaxed">
+              <p className="text-base text-gray-800 leading-relaxed font-medium">
                 {t('b2b.point1')}
               </p>
             </div>
             
-            <div className="bg-card/80 backdrop-blur-sm p-6 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <FileText className="w-7 h-7 text-primary" />
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <FileText className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-foreground leading-relaxed">
+              <p className="text-base text-gray-800 leading-relaxed font-medium">
                 {t('b2b.point2')}
               </p>
             </div>
             
-            <div className="bg-card/80 backdrop-blur-sm p-6 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-7 h-7 text-primary" />
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <Users className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-foreground leading-relaxed">
+              <p className="text-base text-gray-800 leading-relaxed font-medium">
                 {t('b2b.point3')}
               </p>
             </div>
             
-            <div className="bg-card/80 backdrop-blur-sm p-6 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-14 h-14 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Building className="w-7 h-7 text-primary" />
+            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
+              <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <Building className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-foreground leading-relaxed">
+              <p className="text-base text-gray-800 leading-relaxed font-medium">
                 {t('b2b.point4')}
               </p>
             </div>
