@@ -23,10 +23,10 @@ export const MissionSection = () => {
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
                 <Users className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-3">
+              <h3 className="text-lg font-bold text-gray-800 mb-3">
                 {t('mission.community.title')}
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm first-letter:uppercase">
+              <p className="text-gray-600 leading-relaxed text-base first-letter:uppercase">
                 {t('mission.community.description')}
               </p>
             </CardContent>
@@ -37,10 +37,10 @@ export const MissionSection = () => {
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
                 <BookOpen className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-3">
+              <h3 className="text-lg font-bold text-gray-800 mb-3">
                 {t('mission.knowledge.title')}
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm first-letter:uppercase">
+              <p className="text-gray-600 leading-relaxed text-base first-letter:uppercase">
                 {t('mission.knowledge.description')}
               </p>
             </CardContent>
@@ -51,10 +51,10 @@ export const MissionSection = () => {
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
                 <Globe className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-lg font-semibold text-gray-800 mb-3">
+              <h3 className="text-lg font-bold text-gray-800 mb-3">
                 {t('mission.ecosystem.title')}
               </h3>
-              <p className="text-gray-600 leading-relaxed text-sm first-letter:uppercase">
+              <p className="text-gray-600 leading-relaxed text-base first-letter:uppercase">
                 {t('mission.ecosystem.description')}
               </p>
             </CardContent>
