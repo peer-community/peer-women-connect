@@ -18,7 +18,7 @@ export const CommunitySection = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="animate-fade-in text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-8 text-foreground">
+            <h2 className="text-4xl md:text-5xl font-bold font-heading mb-6 text-foreground">
               {t('community.title')}
             </h2>
             
