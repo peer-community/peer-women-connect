@@ -68,7 +68,7 @@ const translations = {
     'b2b.box2.text': 'Menopausa, fertilità, congedo mestruale',
     'b2b.box3.title': 'Workshop',
     'b2b.box3.text': 'Sessioni interattive progettate per abbattere i tabù',
-    'b2b.box4.title': 'Accesso alla community',
+    'b2b.box4.title': 'Community',
     'b2b.box4.text': 'Connetti la tua organizzazione alla nostra community attiva e consapevole',
     'b2b.partner.title': 'Collabora con Peer',
     'b2b.cta.question': 'Pronto ad investire nel futuro del tuo team?',
