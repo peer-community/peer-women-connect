@@ -62,10 +62,14 @@ const translations = {
     // B2B Section
     'b2b.title': 'Sei un\'azienda?',
     'b2b.subtitle': 'Peer aiuta le aziende a supportare la salute femminile e a creare un ambiente inclusivo con:',
-    'b2b.point1': 'Programmi di formazione.',
-    'b2b.point2': 'Politiche innovative (menopausa, fertilità, congedo mestruale).',
-    'b2b.point3': 'Workshop per abbattere i tabù.',
-    'b2b.point4': 'Accesso a una community attiva e consapevole.',
+    'b2b.box1.title': 'Corsi',
+    'b2b.box1.text': 'Programmi di formazione',
+    'b2b.box2.title': 'Politiche innovative',
+    'b2b.box2.text': 'Menopausa, fertilità, congedo mestruale',
+    'b2b.box3.title': 'Workshop',
+    'b2b.box3.text': 'Sessioni interattive progettate per abbattere i tabù',
+    'b2b.box4.title': 'Accesso alla community',
+    'b2b.box4.text': 'Connetti la tua organizzazione alla nostra community attiva e consapevole',
     'b2b.partner.title': 'Collabora con Peer',
     'b2b.cta.question': 'Pronto ad investire nel futuro del tuo team?',
     

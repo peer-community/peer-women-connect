@@ -24,8 +24,11 @@ export const B2BSection = () => {
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <GraduationCap className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-gray-800 leading-relaxed font-medium">
-                {t('b2b.point1')}
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
+                {t('b2b.box1.title')}
+              </h3>
+              <p className="text-base text-gray-800 leading-relaxed">
+                {t('b2b.box1.text')}
               </p>
             </div>
             
@@ -33,8 +36,11 @@ export const B2BSection = () => {
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <FileText className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-gray-800 leading-relaxed font-medium">
-                {t('b2b.point2')}
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
+                {t('b2b.box2.title')}
+              </h3>
+              <p className="text-base text-gray-800 leading-relaxed">
+                {t('b2b.box2.text')}
               </p>
             </div>
             
@@ -42,8 +48,11 @@ export const B2BSection = () => {
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Users className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-gray-800 leading-relaxed font-medium">
-                {t('b2b.point3')}
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
+                {t('b2b.box3.title')}
+              </h3>
+              <p className="text-base text-gray-800 leading-relaxed">
+                {t('b2b.box3.text')}
               </p>
             </div>
             
@@ -51,8 +60,11 @@ export const B2BSection = () => {
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Building className="w-7 h-7 text-white" />
               </div>
-              <p className="text-base text-gray-800 leading-relaxed font-medium">
-                {t('b2b.point4')}
+              <h3 className="text-lg font-bold text-gray-900 mb-2">
+                {t('b2b.box4.title')}
+              </h3>
+              <p className="text-base text-gray-800 leading-relaxed">
+                {t('b2b.box4.text')}
               </p>
             </div>
           </div>
