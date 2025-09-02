@@ -22,7 +22,7 @@ export const CommunitySection = () => {
               {t('community.title')}
             </h2>
             
-            <p className="text-xl text-muted-foreground mb-12 max-w-3xl mx-auto">
+            <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto">
               {t('community.subtitle')}
             </p>
           </div>
