@@ -28,27 +28,27 @@ export const CommunitySection = () => {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <div className="bg-card/60 backdrop-blur-sm p-8 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Users className="w-8 h-8 text-primary" />
+            <div className="text-center p-8">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <Users className="w-8 h-8 text-white" />
               </div>
               <p className="text-lg text-foreground leading-relaxed">
                 {t('community.point1')}
               </p>
             </div>
             
-            <div className="bg-card/60 backdrop-blur-sm p-8 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <BookOpen className="w-8 h-8 text-primary" />
+            <div className="text-center p-8">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <BookOpen className="w-8 h-8 text-white" />
               </div>
               <p className="text-lg text-foreground leading-relaxed">
                 {t('community.point2')}
               </p>
             </div>
             
-            <div className="bg-card/60 backdrop-blur-sm p-8 rounded-2xl border border-border/50 text-center hover:shadow-soft transition-all duration-300">
-              <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Heart className="w-8 h-8 text-primary" />
+            <div className="text-center p-8">
+              <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
+                <Heart className="w-8 h-8 text-white" />
               </div>
               <p className="text-lg text-foreground leading-relaxed">
                 {t('community.point3')}
