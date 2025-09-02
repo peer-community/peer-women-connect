@@ -71,7 +71,7 @@ const translations = {
     'footer.b2bServices': 'Servizi B2B',
     'footer.getInTouch': 'Mettiti in Contatto',
     'footer.followUs': 'Seguici',
-    'footer.copyright': '© 2024 Peer. Dare potere alla salute delle donne attraverso connessione e conoscenza.',
+    'footer.copyright': '© 2025 Peer. Dare potere alla salute delle donne attraverso connessione e conoscenza.',
   },
   en: {
     // Header
@@ -133,7 +133,7 @@ const translations = {
     'footer.b2bServices': 'B2B Services',
     'footer.getInTouch': 'Get in Touch',
     'footer.followUs': 'Follow Us',
-    'footer.copyright': '© 2024 Peer. Empowering women\'s health through connection and knowledge.',
+    'footer.copyright': '© 2025 Peer. Empowering women\'s health through connection and knowledge.',
   },
 };
 
