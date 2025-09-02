@@ -30,7 +30,7 @@ export const CommunitySection = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Users className="w-10 h-10 text-white" />
+                <Users className="w-12 h-12 text-white" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">
                 {t('community.box1.title')}
@@ -42,7 +42,7 @@ export const CommunitySection = () => {
             
             <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <BookOpen className="w-10 h-10 text-white" />
+                <BookOpen className="w-12 h-12 text-white" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">
                 {t('community.box2.title')}
@@ -54,7 +54,7 @@ export const CommunitySection = () => {
             
             <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Heart className="w-10 h-10 text-white" />
+                <Heart className="w-12 h-12 text-white" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">
                 {t('community.box3.title')}
