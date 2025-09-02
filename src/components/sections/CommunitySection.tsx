@@ -32,8 +32,11 @@ export const CommunitySection = () => {
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <p className="text-lg text-foreground leading-relaxed">
-                {t('community.point1')}
+              <h3 className="text-xl font-bold text-foreground mb-4">
+                {t('community.box1.title')}
+              </h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                {t('community.box1.text')}
               </p>
             </div>
             
@@ -41,8 +44,11 @@ export const CommunitySection = () => {
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <BookOpen className="w-8 h-8 text-white" />
               </div>
-              <p className="text-lg text-foreground leading-relaxed">
-                {t('community.point2')}
+              <h3 className="text-xl font-bold text-foreground mb-4">
+                {t('community.box2.title')}
+              </h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                {t('community.box2.text')}
               </p>
             </div>
             
@@ -50,8 +56,11 @@ export const CommunitySection = () => {
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
                 <Heart className="w-8 h-8 text-white" />
               </div>
-              <p className="text-lg text-foreground leading-relaxed">
-                {t('community.point3')}
+              <h3 className="text-xl font-bold text-foreground mb-4">
+                {t('community.box3.title')}
+              </h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                {t('community.box3.text')}
               </p>
             </div>
           </div>
@@ -59,10 +68,10 @@ export const CommunitySection = () => {
           {/* Call to Action Section */}
           <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-12 text-center border border-primary/20">
             <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Pronta a trasformare la tua esperienza?
+              {t('community.ctaTitle')}
             </h3>
             <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Unisciti alla nostra waitlist per essere tra le prime a scoprire quando lanciamo e ottenere accesso esclusivo in anteprima.
+              {t('community.ctaDescription')}
             </p>
             <Button 
               onClick={handleJoinWaitlist}

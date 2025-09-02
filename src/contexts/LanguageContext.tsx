@@ -47,12 +47,17 @@ const translations = {
     'mission.ecosystem.description': 'rete di esperti certificati e servizi per aziende.',
     
     // Community Section
-    'community.title': 'Stai cercando informazioni o qualcuno con cui confrontarti?',
-    'community.subtitle': 'Con Peer puoi:',
-    'community.point1': 'Incontrare chi vive le tue stesse esperienze.',
-    'community.point2': 'Accedere a contenuti e corsi di qualità.',
-    'community.point3': 'Sentirti parte di una community inclusiva.',
+    'community.title': 'Unisciti alla nostra community',
+    'community.subtitle': 'Se stai cercando informazioni o qualcuno con cui confrontarti, scopri cosa rende unica la nostra community.',
+    'community.box1.title': 'Incontra persone come te',
+    'community.box1.text': 'Connettiti con donne che stanno vivendo le tue stesse esperienze',
+    'community.box2.title': 'Accedi ai corsi',
+    'community.box2.text': 'Scopri i nostri contenuti realizzati da esperti del settore',
+    'community.box3.title': 'Fai parte di una community inclusiva',
+    'community.box3.text': 'Unisciti ad un gruppo di donne e di professionisti',
     'community.joinWaitlist': 'Unisciti alla lista d\'attesa',
+    'community.ctaTitle': 'Pronta a far parte della community?',
+    'community.ctaDescription': 'Unisciti alla nostra waitlist per essere tra le prime a scoprire quando lanciamo e ottenere accesso esclusivo in anteprima.',
     
     // B2B Section
     'b2b.title': 'Sei un\'azienda?',
