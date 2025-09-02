@@ -17,44 +17,44 @@ export const MissionSection = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border-border/50">
-            <CardContent className="text-center p-8">
-              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
-                <Users className="w-8 h-8 text-primary" />
+        <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm">
+            <CardContent className="text-center p-6">
+              <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
+                <Users className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">
                 {t('mission.community.title')}
               </h3>
-              <p className="text-muted-foreground leading-relaxed first-letter:uppercase">
+              <p className="text-gray-600 leading-relaxed text-sm first-letter:uppercase">
                 {t('mission.community.description')}
               </p>
             </CardContent>
           </Card>
 
-          <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border-border/50">
-            <CardContent className="text-center p-8">
-              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
-                <BookOpen className="w-8 h-8 text-primary" />
+          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm">
+            <CardContent className="text-center p-6">
+              <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
+                <BookOpen className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">
                 {t('mission.knowledge.title')}
               </h3>
-              <p className="text-muted-foreground leading-relaxed first-letter:uppercase">
+              <p className="text-gray-600 leading-relaxed text-sm first-letter:uppercase">
                 {t('mission.knowledge.description')}
               </p>
             </CardContent>
           </Card>
 
-          <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border-border/50">
-            <CardContent className="text-center p-8">
-              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
-                <Globe className="w-8 h-8 text-primary" />
+          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm">
+            <CardContent className="text-center p-6">
+              <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
+                <Globe className="w-6 h-6 text-white" />
               </div>
-              <h3 className="text-xl font-semibold text-foreground mb-4">
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">
                 {t('mission.ecosystem.title')}
               </h3>
-              <p className="text-muted-foreground leading-relaxed first-letter:uppercase">
+              <p className="text-gray-600 leading-relaxed text-sm first-letter:uppercase">
                 {t('mission.ecosystem.description')}
               </p>
             </CardContent>
