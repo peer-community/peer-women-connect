@@ -58,13 +58,13 @@ export const B2BSection = () => {
           </div>
 
           {/* Call to Action Section */}
-          <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-12 text-center border border-primary/20">
-            <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Pronta a investire nel futuro del tuo team?
-            </h3>
+          <div className="text-center">
+            <p className="text-xl text-muted-foreground mb-6">
+              {t('b2b.cta.question')}
+            </p>
             <a 
               href="mailto:hello@peer-community.com" 
-              className="inline-flex items-center justify-center px-8 py-3 bg-primary text-primary-foreground hover:bg-primary/90 rounded-full font-semibold transition-all duration-300 shadow-medium hover:shadow-strong text-base group"
+              className="inline-flex items-center justify-center text-primary hover:text-primary/80 font-semibold transition-all duration-300 text-lg group story-link"
             >
               {t('b2b.partner.title')}
               <span className="ml-2 group-hover:translate-x-1 transition-transform duration-200">→</span>
