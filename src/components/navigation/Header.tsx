@@ -50,7 +50,11 @@ export const Header = () => {
           {/* Language Toggle and CTA Button */}
           <div className="flex items-center space-x-4">
             <LanguageToggle />
-            <Button variant="ghost" className="hidden md:flex">
+            <Button 
+              variant="ghost" 
+              className="hidden md:flex"
+              onClick={() => scrollToSection('contact')}
+            >
               {t('nav.contact')}
             </Button>
           </div>

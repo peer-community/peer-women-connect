@@ -5,7 +5,7 @@ export const Footer = () => {
   const { t } = useLanguage();
   
   return (
-    <footer className="bg-foreground text-background py-12">
+    <footer id="contact" className="bg-foreground text-background py-12">
       <div className="container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
