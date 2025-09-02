@@ -11,15 +11,64 @@ const Privacy = () => {
       <main className="pt-20">
         <div className="container mx-auto px-6 py-16">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-bold font-heading mb-8 text-foreground">
-              Privacy Policy
+            <h1 className="text-4xl md:text-5xl font-bold font-heading mb-4 text-foreground">
+              {t('privacy.title')}
             </h1>
             
-            <div className="prose prose-lg max-w-none">
-              {/* Content will be added here */}
-              <p className="text-muted-foreground">
-                Privacy policy content will be added here.
-              </p>
+            <p className="text-muted-foreground mb-12">
+              {t('privacy.lastUpdated')}
+            </p>
+            
+            <div className="space-y-8">
+              {/* Data Controller */}
+              <section>
+                <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                  {t('privacy.dataController.title')}
+                </h2>
+                <div className="text-muted-foreground whitespace-pre-line">
+                  {t('privacy.dataController.content')}
+                </div>
+              </section>
+
+              {/* What data we process */}
+              <section>
+                <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                  {t('privacy.whatData.title')}
+                </h2>
+                <div className="text-muted-foreground whitespace-pre-line">
+                  {t('privacy.whatData.content')}
+                </div>
+              </section>
+
+              {/* Cookies */}
+              <section>
+                <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                  {t('privacy.cookies.title')}
+                </h2>
+                <div className="text-muted-foreground whitespace-pre-line">
+                  {t('privacy.cookies.content')}
+                </div>
+              </section>
+
+              {/* Your rights */}
+              <section>
+                <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                  {t('privacy.rights.title')}
+                </h2>
+                <div className="text-muted-foreground whitespace-pre-line">
+                  {t('privacy.rights.content')}
+                </div>
+              </section>
+
+              {/* Changes */}
+              <section>
+                <h2 className="text-2xl font-semibold mb-4 text-foreground">
+                  {t('privacy.changes.title')}
+                </h2>
+                <div className="text-muted-foreground whitespace-pre-line">
+                  {t('privacy.changes.content')}
+                </div>
+              </section>
             </div>
           </div>
         </div>

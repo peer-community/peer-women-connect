@@ -74,6 +74,20 @@ const translations = {
     'footer.followUs': 'Seguici',
     'footer.privacy': 'Privacy Policy',
     'footer.copyright': '© 2025 Peer. Dare potere alla salute delle donne attraverso connessione e conoscenza.',
+
+    // Privacy Policy
+    'privacy.title': 'Privacy & Cookie Policy',
+    'privacy.lastUpdated': 'Ultimo aggiornamento: 02 Settembre 2025',
+    'privacy.dataController.title': '1) Titolare del Trattamento',
+    'privacy.dataController.content': 'Arianna Marchente\nEmail: hello@peer-community.com',
+    'privacy.whatData.title': '2) Quali dati trattiamo',
+    'privacy.whatData.content': 'Questo sito web non raccoglie dati personali e non utilizza cookies.\n\nSe scegli di contattarci via email, tratteremo i dati personali che fornisci (come il tuo indirizzo email e il contenuto del tuo messaggio) esclusivamente per rispondere alla tua richiesta.',
+    'privacy.cookies.title': '3) Cookies',
+    'privacy.cookies.content': 'Questo sito web non imposta cookies.',
+    'privacy.rights.title': '4) I tuoi diritti',
+    'privacy.rights.content': 'Puoi richiedere l\'accesso, la rettifica o la cancellazione dei tuoi dati personali, o opporti al loro trattamento, contattando hello@peer-community.com\n\nHai anche il diritto di presentare un reclamo presso la tua autorità di controllo locale (in Italia: Garante Privacy).',
+    'privacy.changes.title': '5) Modifiche',
+    'privacy.changes.content': 'Potremmo aggiornare questa Policy di tanto in tanto. La data "Ultimo aggiornamento" indicherà sempre la versione più recente.',
   },
   en: {
     // Header
@@ -138,6 +152,20 @@ const translations = {
     'footer.followUs': 'Follow Us',
     'footer.privacy': 'Privacy Policy',
     'footer.copyright': '© 2025 Peer. Empowering women\'s health through connection and knowledge.',
+
+    // Privacy Policy
+    'privacy.title': 'Privacy & Cookie Policy',
+    'privacy.lastUpdated': 'Last updated: 02 September 2025',
+    'privacy.dataController.title': '1) Data Controller',
+    'privacy.dataController.content': 'Arianna Marchente\nEmail: hello@peer-community.com',
+    'privacy.whatData.title': '2) What data we process',
+    'privacy.whatData.content': 'This website does not collect personal data and does not use cookies.\n\nIf you choose to contact us via email, we will process the personal data you provide (such as your email address and the content of your message) solely for the purpose of responding to your request.',
+    'privacy.cookies.title': '3) Cookies',
+    'privacy.cookies.content': 'This website does not set cookies.',
+    'privacy.rights.title': '4) Your rights',
+    'privacy.rights.content': 'You may request access, rectification, or erasure of your personal data, or object to its processing, by contacting hello@peer-community.com\n\nYou also have the right to lodge a complaint with your local supervisory authority (in Italy: Garante Privacy).',
+    'privacy.changes.title': '5) Changes',
+    'privacy.changes.content': 'We may update this Policy from time to time. The "Last updated" date will always indicate the latest version.',
   },
 };
 
