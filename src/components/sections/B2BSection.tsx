@@ -6,7 +6,7 @@ export const B2BSection = () => {
   const { t } = useLanguage();
 
   return (
-    <section className="py-20" style={{backgroundColor: '#CFB921'}}>
+    <section className="py-20" style={{backgroundColor: '#FFE8B6'}}>
       <div className="container mx-auto px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16 animate-fade-in">
