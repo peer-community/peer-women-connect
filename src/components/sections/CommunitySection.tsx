@@ -56,12 +56,19 @@ export const CommunitySection = () => {
             </div>
           </div>
           
-          <div className="text-center">
+          {/* Call to Action Section */}
+          <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-3xl p-12 text-center border border-primary/20">
+            <h3 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+              Pronta a trasformare la tua esperienza?
+            </h3>
+            <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Unisciti alla nostra waitlist per essere tra le prime a scoprire quando lanciamo e ottenere accesso esclusivo in anteprima.
+            </p>
             <Button 
               onClick={handleJoinWaitlist}
               variant="default" 
               size="lg"
-              className="text-lg px-12 py-6 h-auto rounded-full shadow-medium hover:shadow-strong transition-all duration-300"
+              className="text-lg px-12 py-6 h-auto rounded-full shadow-medium hover:shadow-strong transition-all duration-300 bg-primary hover:bg-primary/90"
             >
               {t('community.joinWaitlist')}
             </Button>
