@@ -18,7 +18,7 @@ export const MissionSection = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm">
+          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm rounded-3xl" style={{borderBottomLeftRadius: '16px'}}>
             <CardContent className="text-center p-6">
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
                 <Users className="w-6 h-6 text-white" />
@@ -32,7 +32,7 @@ export const MissionSection = () => {
             </CardContent>
           </Card>
 
-          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm">
+          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm rounded-3xl" style={{borderBottomLeftRadius: '16px'}}>
             <CardContent className="text-center p-6">
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
                 <BookOpen className="w-6 h-6 text-white" />
@@ -46,7 +46,7 @@ export const MissionSection = () => {
             </CardContent>
           </Card>
 
-          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm">
+          <Card className="group hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 bg-white/80 backdrop-blur-sm border-0 shadow-sm rounded-3xl" style={{borderBottomLeftRadius: '16px'}}>
             <CardContent className="text-center p-6">
               <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4 rounded-xl bg-gradient-to-br from-purple-400 to-pink-400">
                 <Globe className="w-6 h-6 text-white" />
