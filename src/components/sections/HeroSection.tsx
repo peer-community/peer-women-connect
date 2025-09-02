@@ -9,7 +9,7 @@ export const HeroSection = () => {
       {/* Background Shape */}
       <div className="absolute inset-0 flex items-center justify-center">
         <img 
-          src="/lovable-uploads/30483a2a-488a-4610-a7ac-93539871c0c8.png"
+          src="/lovable-uploads/b4416b20-b0f9-41ea-bd8c-31155331a509.png"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
