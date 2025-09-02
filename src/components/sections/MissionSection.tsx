@@ -1,5 +1,6 @@
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Groups, School, Business } from "@mui/icons-material";
+import { Users, BookOpen, Globe } from "lucide-react";
+import { Card, CardContent } from "@/components/ui/card";
 
 export const MissionSection = () => {
   const { t } = useLanguage();
@@ -17,32 +18,47 @@ export const MissionSection = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-          <div className="text-center p-8">
-            <h3 className="text-xl font-semibold text-foreground mb-4">
-              {t('mission.community.title')}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('mission.community.description')}
-            </p>
-          </div>
+          <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border-border/50">
+            <CardContent className="text-center p-8">
+              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
+                <Users className="w-8 h-8 text-primary" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-4">
+                {t('mission.community.title')}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed first-letter:uppercase">
+                {t('mission.community.description')}
+              </p>
+            </CardContent>
+          </Card>
 
-          <div className="text-center p-8">
-            <h3 className="text-xl font-semibold text-foreground mb-4">
-              {t('mission.knowledge.title')}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('mission.knowledge.description')}
-            </p>
-          </div>
+          <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border-border/50">
+            <CardContent className="text-center p-8">
+              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
+                <BookOpen className="w-8 h-8 text-primary" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-4">
+                {t('mission.knowledge.title')}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed first-letter:uppercase">
+                {t('mission.knowledge.description')}
+              </p>
+            </CardContent>
+          </Card>
 
-          <div className="text-center p-8">
-            <h3 className="text-xl font-semibold text-foreground mb-4">
-              {t('mission.ecosystem.title')}
-            </h3>
-            <p className="text-muted-foreground leading-relaxed">
-              {t('mission.ecosystem.description')}
-            </p>
-          </div>
+          <Card className="group hover:shadow-lg hover:-translate-y-1 transition-all duration-300 border-border/50">
+            <CardContent className="text-center p-8">
+              <div className="w-16 h-16 flex items-center justify-center mx-auto mb-6 rounded-full bg-primary/10">
+                <Globe className="w-8 h-8 text-primary" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-4">
+                {t('mission.ecosystem.title')}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed first-letter:uppercase">
+                {t('mission.ecosystem.description')}
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>
