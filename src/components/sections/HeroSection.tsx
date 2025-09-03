@@ -5,9 +5,14 @@ export const HeroSection = () => {
   const { t } = useLanguage();
   
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden">
-      {/* Background Shape */}
-      <div className="absolute inset-0 flex items-center justify-center">
+    <section 
+      className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden bg-cover bg-center bg-no-repeat lg:bg-none"
+      style={{
+        backgroundImage: 'url(/lovable-uploads/86d87104-9398-4f3b-aef7-646fc33a405c.png)'
+      }}
+    >
+      {/* Background Shape - Desktop Only */}
+      <div className="absolute inset-0 flex items-center justify-center lg:block hidden">
         <img 
           src="/lovable-uploads/b4416b20-b0f9-41ea-bd8c-31155331a509.png"
           alt="Hero background"
