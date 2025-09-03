@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageToggle } from "./LanguageToggle";
 import { Link, useLocation } from "react-router-dom";
+import { PeerLogo } from "@/components/ui/PeerLogo";
 
 export const Header = () => {
   const { t } = useLanguage();
@@ -37,12 +38,12 @@ export const Header = () => {
               onClick={handleLogoClick}
               className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             >
-              <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
+              <PeerLogo className="w-8 h-8" />
               <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
             </button>
           ) : (
             <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
-              <img src="/lovable-uploads/dbfeddee-06d3-46dd-bdee-d0acd32bb946.png" alt="Peer Logo" className="w-8 h-8" />
+              <PeerLogo className="w-8 h-8" />
               <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
             </Link>
           )}
