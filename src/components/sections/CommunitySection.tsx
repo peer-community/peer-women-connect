@@ -14,13 +14,7 @@ export const CommunitySection = () => {
   };
 
   return (
-    <section 
-      className="py-20 md:bg-cover md:bg-center md:bg-no-repeat lg:bg-none" 
-      style={{
-        backgroundColor: '#FFF8E4',
-        backgroundImage: 'url(/lovable-uploads/86d87104-9398-4f3b-aef7-646fc33a405c.png)'
-      }}
-    >
+    <section className="py-20" style={{backgroundColor: '#FFF8E4'}}>
       <div className="container mx-auto px-6">
         <div className="max-w-5xl mx-auto">
           <div className="animate-fade-in text-center">
