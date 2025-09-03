@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { GraduationCap, FileText, Users, Building } from "lucide-react";
+import { GraduationCap, Lightbulb, Users, Building } from "lucide-react";
 
 export const B2BSection = () => {
   const { t } = useLanguage();
@@ -34,7 +34,7 @@ export const B2BSection = () => {
             
             <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <FileText className="w-7 h-7 text-white" />
+                <Lightbulb className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">
                 {t('b2b.box2.title')}
