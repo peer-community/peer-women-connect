@@ -8,7 +8,7 @@ export const HeroSection = () => {
     <section 
       className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden bg-cover bg-center bg-no-repeat lg:bg-none"
       style={{
-        backgroundImage: 'url(/lovable-uploads/86d87104-9398-4f3b-aef7-646fc33a405c.png)'
+        backgroundImage: 'url(/lovable-uploads/6070e9b2-fe95-472c-9907-b1e3d96b66aa.png)'
       }}
     >
       {/* Background Shape - Desktop Only */}
