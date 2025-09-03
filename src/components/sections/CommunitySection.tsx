@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Heart, Users, BookOpen } from "lucide-react";
+import { Heart, UserPlus, BookOpen } from "lucide-react";
 
 export const CommunitySection = () => {
   const { t } = useLanguage();
@@ -30,7 +30,7 @@ export const CommunitySection = () => {
           <div className="grid md:grid-cols-3 gap-4">
             <div className="text-center p-8 hover:scale-105 transition-transform duration-300 ease-out">
               <div className="w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Users className="w-12 h-12 text-white" />
+                <UserPlus className="w-12 h-12 text-white" />
               </div>
               <h3 className="text-xl font-bold text-foreground mb-4">
                 {t('community.box1.title')}
