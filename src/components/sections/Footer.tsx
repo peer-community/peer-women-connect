@@ -2,6 +2,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Instagram, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { PeerLogo } from "@/components/ui/PeerLogo";
+import { PeerLogotype } from "@/components/ui/PeerLogotype";
 
 export const Footer = () => {
   const { t } = useLanguage();
@@ -14,7 +15,7 @@ export const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <PeerLogo className="w-8 h-8" />
-              <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
+              <PeerLogotype className="h-8" />
             </div>
             <p className="text-background/80 leading-relaxed">
               {t('footer.brandDescription')}

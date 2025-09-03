@@ -3,6 +3,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { LanguageToggle } from "./LanguageToggle";
 import { Link, useLocation } from "react-router-dom";
 import { PeerLogo } from "@/components/ui/PeerLogo";
+import { PeerLogotype } from "@/components/ui/PeerLogotype";
 
 export const Header = () => {
   const { t } = useLanguage();
@@ -39,12 +40,12 @@ export const Header = () => {
               className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
             >
               <PeerLogo className="w-8 h-8" />
-              <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
+              <PeerLogotype className="h-8" />
             </button>
           ) : (
             <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition-opacity">
               <PeerLogo className="w-8 h-8" />
-              <img src="/lovable-uploads/4534db8e-bd74-4cf8-9ad6-73513760a206.png" alt="Peer" className="h-8" />
+              <PeerLogotype className="h-8" />
             </Link>
           )}
 
