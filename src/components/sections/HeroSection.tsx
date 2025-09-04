@@ -27,7 +27,8 @@ export const HeroSection = () => {
             {t('nav.mission') === 'Mission' ? (
               // English version
               <>
-                <span className="bg-gradient-primary bg-clip-text text-transparent">Women's wellbeing</span>
+                <span className="text-foreground">Women's </span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">wellbeing</span>
                 <span className="text-foreground">, powered by </span>
                 <span className="bg-gradient-primary bg-clip-text text-transparent">community</span>
               </>
