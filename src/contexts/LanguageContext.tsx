@@ -136,10 +136,15 @@ const translations = {
     // Community Section
     'community.title': 'Join our community',
     'community.subtitle': 'Looking for information or someone to connect with? With Peer you can:',
-    'community.point1': 'Meet others who share your experiences.',
-    'community.point2': 'Access high-quality courses and content.',
-    'community.point3': 'Feel part of an inclusive community.',
+    'community.box1.title': 'Meet people like you',
+    'community.box1.text': 'Connect with women experiencing the same things as you',
+    'community.box2.title': 'Access courses',
+    'community.box2.text': 'Discover our content created by industry experts',
+    'community.box3.title': 'Be part of an inclusive community',
+    'community.box3.text': 'Join a group of women and professionals',
     'community.joinWaitlist': 'Join Waitlist',
+    'community.ctaTitle': 'Ready to be part of the community?',
+    'community.ctaDescription': 'Join our waitlist to be among the first to discover when we launch and get exclusive early access.',
     
     // B2B Section
     'b2b.title': 'Are you a company?',
