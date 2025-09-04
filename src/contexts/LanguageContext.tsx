@@ -48,7 +48,7 @@ const translations = {
     
     // Community Section
     'community.title': 'Unisciti alla nostra community',
-    'community.subtitle': 'Se stai cercando informazioni o qualcuno con cui confrontarti, scopri cosa rende unica la nostra community.',
+    'community.subtitle': 'Stai cercando qualcuno con cui confrontarti? Con Peer puoi:',
     'community.box1.title': 'Incontra persone come te',
     'community.box1.text': 'Connettiti con donne che stanno vivendo le tue stesse esperienze',
     'community.box2.title': 'Accedi ai corsi',
