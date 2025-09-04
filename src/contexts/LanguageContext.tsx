@@ -134,8 +134,8 @@ const translations = {
     'mission.ecosystem.description': 'a network of certified experts and tailored services for companies.',
     
     // Community Section
-    'community.title': 'Looking for information or someone to connect with?',
-    'community.subtitle': 'With Peer you can:',
+    'community.title': 'Join our community',
+    'community.subtitle': 'Looking for information or someone to connect with? With Peer you can:',
     'community.point1': 'Meet others who share your experiences.',
     'community.point2': 'Access high-quality courses and content.',
     'community.point3': 'Feel part of an inclusive community.',
