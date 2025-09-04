@@ -27,10 +27,9 @@ export const HeroSection = () => {
             {t('nav.mission') === 'Mission' ? (
               // English version
               <>
-                <span className="text-foreground">The first digital community dedicated to </span>
-                <span className="bg-gradient-primary bg-clip-text text-transparent">reproductive health</span>
-                <span className="text-foreground"> and </span>
-                <span className="bg-gradient-primary bg-clip-text text-transparent">well-being</span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">Women's wellbeing</span>
+                <span className="text-foreground">, powered by </span>
+                <span className="bg-gradient-primary bg-clip-text text-transparent">community</span>
               </>
             ) : (
               // Italian version
