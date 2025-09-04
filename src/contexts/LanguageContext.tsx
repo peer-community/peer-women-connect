@@ -124,7 +124,7 @@ const translations = {
     'context.career.description': '50% of mothers leave their jobs within a year of childbirth; many women in managerial roles experience perimenopause without support.',
     
     // Mission Section
-    'mission.title': 'Peer\'s Mission',
+    'mission.title': 'What we do at Peer',
     'mission.subtitle': 'Peer is the first digital platform that supports women through every stage of reproductive health, with a unique approach.',
     'mission.community.title': 'Community',
     'mission.community.description': 'matching and forums to fight loneliness and isolation.',
