@@ -1,6 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { GraduationCap, Lightbulb, Users, Star } from "lucide-react";
+import { Lightbulb, Users, Star } from "lucide-react";
 
 export const B2BSection = () => {
   const { t } = useLanguage();
@@ -19,10 +19,10 @@ export const B2BSection = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
             <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <GraduationCap className="w-7 h-7 text-white" />
+                <Lightbulb className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">
                 {t('b2b.box1.title')}
@@ -34,7 +34,7 @@ export const B2BSection = () => {
             
             <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Lightbulb className="w-7 h-7 text-white" />
+                <Users className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">
                 {t('b2b.box2.title')}
@@ -46,25 +46,13 @@ export const B2BSection = () => {
             
             <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
               <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Users className="w-7 h-7 text-white" />
+                <Star className="w-7 h-7 text-white" />
               </div>
               <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">
                 {t('b2b.box3.title')}
               </h3>
               <p className="text-base text-gray-800 leading-relaxed text-center">
                 {t('b2b.box3.text')}
-              </p>
-            </div>
-            
-            <div className="bg-white/80 backdrop-blur-sm p-6 rounded-3xl border-0 shadow-sm text-center hover:shadow-md hover:-translate-y-0.5 transition-all duration-300" style={{borderBottomLeftRadius: '16px'}}>
-              <div className="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style={{background: 'linear-gradient(135deg, #C52344, #FF8574)'}}>
-                <Star className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-lg font-bold text-gray-900 mb-2 text-center">
-                {t('b2b.box4.title')}
-              </h3>
-              <p className="text-base text-gray-800 leading-relaxed text-center">
-                {t('b2b.box4.text')}
               </p>
             </div>
           </div>
