@@ -38,7 +38,7 @@ const translations = {
     
     // Mission Section
     'mission.title': 'Cosa facciamo',
-    'mission.subtitle': 'Peer è la prima piattaforma digitale che accompagna le persone in tutte le fasi della salute riproduttiva, con un approccio unico.',
+    'mission.subtitle': 'Peer è la prima piattaforma digitale che accompagna le donne in tutte le fasi della salute riproduttiva, con un approccio unico.',
     'mission.community.title': 'Community',
     'mission.community.description': 'matching e forum per combattere solitudine e isolamento.',
     'mission.knowledge.title': 'Conoscenza',
