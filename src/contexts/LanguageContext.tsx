@@ -37,7 +37,7 @@ const translations = {
     'context.career.description': 'il 50% delle madri lascia il lavoro entro un anno dal parto; molte donne in ruoli manageriali vivono la perimenopausa senza supporto.',
     
     // Mission Section
-    'mission.title': 'La mission di Peer',
+    'mission.title': 'Cosa facciamo',
     'mission.subtitle': 'Peer è la prima piattaforma digitale che accompagna le persone in tutte le fasi della salute riproduttiva, con un approccio unico.',
     'mission.community.title': 'Community',
     'mission.community.description': 'matching e forum per combattere solitudine e isolamento.',
