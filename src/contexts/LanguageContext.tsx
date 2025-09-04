@@ -125,7 +125,7 @@ const translations = {
     
     // Mission Section
     'mission.title': 'Peer\'s Mission',
-    'mission.subtitle': 'Peer is the first digital platform that supports people through every stage of reproductive health, with a unique approach.',
+    'mission.subtitle': 'Peer is the first digital platform that supports women through every stage of reproductive health, with a unique approach.',
     'mission.community.title': 'Community',
     'mission.community.description': 'matching and forums to fight loneliness and isolation.',
     'mission.knowledge.title': 'Knowledge',
