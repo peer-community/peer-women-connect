@@ -35,11 +35,9 @@ export const HeroSection = () => {
             ) : (
               // Italian version
               <>
-                <span className="text-foreground">La prima community digitale dedicata alla </span>
-                <span className="bg-gradient-primary bg-clip-text text-transparent">salute</span>
-                <span className="text-foreground"> e al</span>
+                <span className="text-foreground">La community della</span>
                 <span className="block bg-gradient-primary bg-clip-text text-transparent">
-                  benessere femminile
+                  salute femminile
                 </span>
               </>
             )}
