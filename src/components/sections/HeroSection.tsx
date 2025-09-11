@@ -8,13 +8,13 @@ export const HeroSection = () => {
     <section 
       className="relative min-h-screen flex items-center justify-center bg-background overflow-hidden bg-cover bg-center bg-no-repeat lg:bg-none pt-20 md:pt-24 lg:pt-0"
       style={{
-        backgroundImage: 'url(/lovable-uploads/cea9c662-5d5c-4d64-9ef9-2f5759c51908.png)'
+        backgroundImage: 'url(./lovable-uploads/cea9c662-5d5c-4d64-9ef9-2f5759c51908.png)'
       }}
     >
       {/* Background Shape - Desktop Only */}
       <div className="absolute inset-0 flex items-center justify-center lg:block hidden">
         <img 
-          src="/lovable-uploads/b4416b20-b0f9-41ea-bd8c-31155331a509.png"
+          src="./lovable-uploads/b4416b20-b0f9-41ea-bd8c-31155331a509.png"
           alt="Hero background"
           className="w-full h-full object-cover"
         />
