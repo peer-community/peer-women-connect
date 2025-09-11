@@ -72,7 +72,7 @@ export const Footer = () => {
                     <Instagram size={24} />
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/company/peer-community/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-background/80 hover:text-background transition-colors"
