@@ -19,8 +19,8 @@ const translations = {
     'nav.contact': 'Contattaci',
     
     // Hero Section
-    'hero.title': 'La prima community digitale dedicata alla',
-    'hero.titleHighlight': 'salute e al benessere femminile',
+    'hero.title': 'La community della',
+    'hero.titleHighlight': 'salute femminile',
     'hero.subtitle': 'Creiamo connessioni autentiche, offriamo informazione scientifica e affidabile, collaboriamo con esperti e aziende per abbattere i tabù.',
     'hero.subtitleHighlight': '',
     'hero.joinCommunity': 'Unisciti alla Nostra Community',
