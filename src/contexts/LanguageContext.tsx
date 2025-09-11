@@ -48,7 +48,7 @@ const translations = {
     
     // Community Section
     'community.title': 'Unisciti alla nostra community',
-    'community.subtitle': 'Stai cercando qualcuno con cui confrontarti? Con Peer puoi:',
+    'community.subtitle': 'Stai cercando qualcuno con cui confrontarti?',
     'community.box1.title': 'Incontra persone come te',
     'community.box1.text': 'Connettiti con donne che stanno vivendo le tue stesse esperienze',
     'community.box2.title': 'Accedi ai corsi',
@@ -133,7 +133,7 @@ const translations = {
     
     // Community Section
     'community.title': 'Join our community',
-    'community.subtitle': 'Looking for information or someone to connect with? With Peer you can:',
+    'community.subtitle': 'Looking for information or someone to connect with?',
     'community.box1.title': 'Meet people like you',
     'community.box1.text': 'Connect with women experiencing the same things as you',
     'community.box2.title': 'Access courses',
