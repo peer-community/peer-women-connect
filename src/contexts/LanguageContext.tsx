@@ -69,7 +69,7 @@ const translations = {
     'b2b.box3.title': 'Community',
     'b2b.box3.text': 'Connetti la tua organizzazione alla nostra community attiva e consapevole',
     'b2b.partner.title': 'Collabora con Peer',
-    'b2b.cta.question': 'Pronto ad investire nel futuro del tuo team?',
+    'b2b.cta.question': 'Vuoi investire nel futuro del tuo team?',
     
     // Footer
     'footer.brandDescription': 'Peer nasce per rivoluzionare il modo in cui viviamo e raccontiamo la salute riproduttiva. Connettiti, impara, condividi. È solo l\'inizio.',
